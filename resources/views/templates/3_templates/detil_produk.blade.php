@@ -34,10 +34,14 @@ $name = session('data')->username
     <div class="container">
         <div class="row justify-content-center wow slideInUp">
             <div class="col-lg-3 col-md-3">
+            <?PHP
+                    $firsturl = str_replace(" ", "%20", $produk->nama_brg);
+                    $resulturl = str_replace("&", "n", $firsturl);
+                    ?>
                 <div class="row justify-content-center " style="background:#fff;">
                     <img src="{{ (@file_exists(public_path($produk->foto))) ? asset($produk->foto) : asset('images/no-product.svg') }}" class="img-fluid align-top " alt="{{ $produk->nama_brg }}">
                 </div>
-                <a href="https://wa.me/{{ $no_wa }}?text={{ $wa_template }} <?PHP echo  str_replace(" ", "%20", $produk->nama_brg); ?>" target="_blank" class="btn btn-hvr-red mt-5 red-btn2 btn-rounded btn-block"><i class="fa fa-cart-plus mr-1"></i> Beli</a>
+                <a href="https://wa.me/{{ $no_wa }}?text={{ $wa_template }} {{ $resulturl }}" target="_blank" class="btn btn-hvr-red mt-5 red-btn2 btn-rounded btn-block"><i class="fa fa-cart-plus mr-1"></i> Beli</a>
 
             </div>
             <div class="col-lg-1 col-md-1"></div>
