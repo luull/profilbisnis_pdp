@@ -158,7 +158,7 @@
         <div class="row">
             <div class="col-md-8" data-aos="fade-left" data-aos-delay="100">
 
-                <img src="{{ asset('templates/9_mysuperboss/img/join.png')}}" class="img-fluid" style="width: 500px;">
+                <img src="{{ asset('templates/templates_4/img/join.png')}}" class="img-fluid" style="width: 500px;">
             </div>
             <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
 
