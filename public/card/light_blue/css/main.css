@@ -1,0 +1,710 @@
+.cardname {
+  background: url("../img/light-blue.jpg");
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 10px;
+  border: 1px solid #000;
+  color: #000;
+}
+.cardname .qr {
+  background: #fff;
+  width: auto;
+  padding: 4px;
+  overflow: hidden;
+  float: right !important;
+}
+.cardname .list-group {
+  border: none !important;
+  background: transparent !important;
+}
+.cardname .list-group-item {
+  padding: 0px !important;
+  border: none !important;
+  background: transparent !important;
+}
+.cardname .list-group-item a {
+  padding: 0px !important;
+  border: none !important;
+  background: transparent !important;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.cardname .list-group-item i {
+  margin-right: 10px;
+  font-size: 19px;
+  color: #fff;
+}
+.cardname .list-group-item .custom {
+  color: #fff !important;
+}
+.cardname img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-right: 0px !important;
+  float: right !important;
+  border: 5px solid #1465f4;
+}
+.cardname p {
+  float: right !important;
+}
+.cardname h4 {
+  float: right !important;
+  font-weight: 600;
+}
+.cardname .row1 {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+.cardname .row2 {
+  position: relative;
+  margin-bottom: 10px;
+}
+@media (max-width: 1039px) {
+  .cardname {
+    width: 90%;
+    height: 300px;
+  }
+  .cardname img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 10px !important;
+    float: right !important;
+  }
+  .cardname p {
+    font-size: 13px;
+    float: right !important;
+    text-align: center !important;
+  }
+  .cardname h4 {
+    font-size: 16px;
+    float: right !important;
+    text-align: center !important;
+    font-weight: 600;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+  .cardname .list-group-item i {
+    font-size: 16px;
+  }
+  .cardname .row1 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1017px) {
+  .cardname {
+    width: 100%;
+    height: 300px;
+  }
+  .cardname img {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    text-align: center !important;
+  }
+  .cardname h4 {
+    float: right !important;
+    text-align: center !important;
+    font-weight: 600;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 15px !important;
+  }
+}
+@media (max-width: 847px) {
+  .cardname {
+    width: 100%;
+    height: 300px;
+  }
+  .cardname img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    text-align: center !important;
+    font-size: x-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    text-align: center !important;
+    font-weight: 600;
+    font-size: small;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 15px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+  .cardname .list-group-item i {
+    font-size: 16px;
+  }
+}
+@media (max-width: 806px) {
+  .cardname {
+    width: 100%;
+    height: 300px;
+  }
+  .cardname img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    text-align: center !important;
+    font-size: x-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    text-align: center !important;
+    font-weight: 600;
+    font-size: smaller;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 15px !important;
+  }
+  .cardname .row1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 799px) {
+  .cardname {
+    width: 100%;
+    height: 280px;
+  }
+  .cardname img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 10px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    text-align: center !important;
+    font-size: smaller;
+  }
+  .cardname h4 {
+    float: right !important;
+    text-align: center !important;
+    font-weight: 600;
+    font-size: medium;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .row1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .cardname {
+    width: 100%;
+    height: 290px;
+  }
+  .cardname img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 10px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    text-align: center !important;
+    font-size: smaller;
+  }
+  .cardname h4 {
+    float: right !important;
+    text-align: center !important;
+    font-weight: 600;
+    font-size: medium;
+  }
+    li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .row1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 632px) {
+  .cardname {
+    width: 100%;
+    height: 260px;
+  }
+  .cardname img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 10px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: x-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: smaller;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+  .cardname .list-group-item i {
+    font-size: 16px;
+  }
+  .cardname .row1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 62px) {
+  .cardname {
+    width: 100%;
+    height: 260px;
+  }
+  .cardname img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 10px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: x-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: smaller;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+  .cardname .list-group-item i {
+    font-size: 16px;
+  }
+  .cardname .row1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 590px) {
+  .cardname {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #000 !important;
+  }
+  .cardname img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 0px !important;
+    background-size: cover;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: x-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: small;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+  .cardname .list-group-item i {
+    font-size: 14px;
+  }
+  .cardname .row1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 525px) {
+  .cardname {
+    width: 100%;
+    height: 220px;
+    border: 1px solid #000 !important;
+  }
+  .cardname img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: x-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: small;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 8px;
+  }
+  .cardname .list-group-item i {
+    font-size: 10px;
+  }
+  .cardname .row1 {
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 419px) {
+  .cardname {
+    width: 100%;
+    height: 200px;
+    padding: 10px !important;
+    border: 1px solid #000 !important;
+  }
+  .cardname img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: xx-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: x-small;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 8px;
+  }
+  .cardname .list-group-item i {
+    font-size: 10px;
+  }
+  .cardname .row1 {
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 361px) {
+  .cardname {
+    width: 100%;
+    height: 180px;
+    padding: 10px !important;
+    border: 1px solid #000 !important;
+  }
+  .cardname img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: xx-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: x-small;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 7px;
+  }
+  .cardname .list-group-item i {
+    font-size: 9px;
+  }
+  .cardname .row1 {
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 339px) {
+  .cardname {
+    width: 100%;
+    height: 170px;
+    padding: 10px !important;
+    border: 1px solid #000 !important;
+  }
+  .cardname img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: xx-small;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: x-small;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 7px;
+  }
+  .cardname .list-group-item i {
+    font-size: 9px;
+  }
+  .cardname .row1 {
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+  li {
+  padding: 0px !important;
+  margin: 0px !important;
+  line-height: 10px !important;
+}
+}
+
+@media (max-width: 322px) {
+  .cardname {
+    width: 100%;
+    height: 160px;
+    padding: 10px !important;
+    border: 1px solid #000 !important;
+  }
+  .cardname img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: 7px;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: xx-small;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 6px;
+  }
+  .cardname .list-group-item i {
+    font-size: 8px;
+  }
+  .cardname .row1 {
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 304px) {
+  .cardname {
+    width: 100%;
+    height: 150px;
+    padding: 10px !important;
+    border: 1px solid #000 !important;
+  }
+  .cardname img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: 6px;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: 7px;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 6px;
+  }
+  .cardname .list-group-item i {
+    font-size: 8px;
+  }
+  .cardname .row1 {
+    margin-top: 0px !important;
+    margin-bottom: 5px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 286px) {
+  .cardname {
+    width: 100%;
+    height: 140px;
+    padding: 10px !important;
+    border: 1px solid #000 !important;
+  }
+  .cardname img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 0px !important;
+    float: right !important;
+  }
+  .cardname p {
+    float: right !important;
+    font-size: 5px;
+  }
+  .cardname h4 {
+    float: right !important;
+    font-weight: 600;
+    font-size: 6px;
+  }
+  li {
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 10px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 5.9px;
+  }
+  .cardname .list-group-item i {
+    font-size: 7px;
+  }
+  .cardname .row1 {
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+  }
+  .cardname .row2 {
+    margin-bottom: 10px;
+  }
+}

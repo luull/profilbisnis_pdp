@@ -1,0 +1,1303 @@
+.cardname {
+  background: url("../img/maximax_dark.png");
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 10px;
+  border: 1px solid #000;
+  font-family: 'Metropolis Medium' !important;
+  color: #fff;
+}
+.cardname .list-group {
+  border: none !important;
+  background: transparent !important;
+}
+.cardname .list-group-item {
+  padding: 6px !important;
+  border: none !important;
+  background: transparent !important;
+}
+.cardname .list-group-item a {
+  padding: 0px !important;
+  border: none !important;
+  background: transparent !important;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.cardname .top {
+  padding-top: 60px;
+  padding-left: 65px;
+}
+.cardname .top .name {
+  text-transform: uppercase !important;
+  font-family: 'Metropolis Extra Bold' !important;
+  font-size: 23px;
+}
+.cardname .top .major {
+  padding-top: 15px;
+  letter-spacing: 1 !important;
+  font-family: 'Metropolis Light' !important;
+}
+.cardname .bottom {
+  padding-top: 30px;
+  padding-left: 135px;
+}
+@media only screen and (max-width: 1040px) {
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 42px !important;
+  padding-left: 55px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 14px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 110px !important;
+}
+  
+  
+}
+@media only screen and (max-width: 992px) {
+  .cardname {
+    height: 300px !important;
+  }
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 42px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 14px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 115px !important;
+}
+  
+}
+@media only screen and (max-width: 991px) {
+  .cardname {
+    height: 330px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 50px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 16px !important;
+  font-size: 14px !important;
+}
+.cardname .bottom {
+  padding-top: 25px !important;
+  padding-left: 115px !important;
+}
+  
+ 
+}
+@media only screen and (max-width: 962px) {
+
+  .cardname {
+    height: 330px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 48px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 14px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 115px !important;
+}
+  
+ 
+}
+@media only screen and (max-width: 904px) {
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 11px;
+  }
+ 
+.cardname .top {
+  padding-top: 42px !important;
+  padding-left: 55px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 14px !important;
+}
+.cardname .bottom {
+  padding-top: 18px !important;
+  padding-left: 110px !important;
+}
+  
+  
+}
+@media only screen and (max-width: 874px) {
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 11px;
+  }
+ 
+.cardname .top {
+  padding-top: 42px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 14px !important;
+}
+.cardname .bottom {
+  padding-top: 18px !important;
+  padding-left: 115px !important;
+}
+  
+}
+@media only screen and (max-width: 848px) {
+  .cardname {
+    height: 315px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 11px;
+  }
+ 
+.cardname .top {
+  padding-top: 42px !important;
+  padding-left: 65px !important;
+}
+.cardname .top .name {
+  font-size: 17px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 13px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 118px !important;
+}
+  
+}
+@media only screen and (max-width: 815px) {
+  .cardname {
+    height: 300px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 11px;
+  }
+ 
+.cardname .top {
+  padding-top: 38px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 17px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 13px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 110px !important;
+}
+  
+  
+}
+@media only screen and (max-width: 799px) {
+  .cardname {
+    height: 290px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+ 
+.cardname .top {
+  padding-top: 36px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 17px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 12px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 105px !important;
+}
+  
+ 
+}
+@media only screen and (max-width: 768px) {
+  .cardname {
+    height: 290px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+ 
+.cardname .top {
+  padding-top: 36px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 17px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 12px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 110px !important;
+}
+  
+}
+@media only screen and (max-width: 767px) {
+  .cardname {
+    height: 330px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 48px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 14px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 115px !important;
+} 
+  
+}
+@media only screen and (max-width: 730px) {
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 45px !important;
+  padding-left: 55px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 13px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 110px !important;
+} 
+  
+}
+@media only screen and (max-width: 708px) {
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 45px !important;
+  padding-left: 55px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 13px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 115px !important;
+} 
+  
+}
+@media only screen and (max-width: 685px) {
+  .cardname {
+    height: 315px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 43px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 13px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 115px !important;
+} 
+  
+}
+@media only screen and (max-width: 674px) {
+  .cardname {
+    height: 310px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 12px;
+  }
+ 
+.cardname .top {
+  padding-top: 43px !important;
+  padding-left: 60px !important;
+}
+.cardname .top .name {
+  font-size: 18px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 13px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 115px !important;
+} 
+  
+}
+@media only screen and (max-width: 647px) {
+  .cardname {
+    height: 290px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 11px;
+  }
+ 
+.cardname .top {
+  padding-top: 36px !important;
+  padding-left: 55px !important;
+}
+.cardname .top .name {
+  font-size: 17px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 12px !important;
+}
+.cardname .bottom {
+  padding-top: 18px !important;
+  padding-left: 105px !important;
+} 
+  
+  
+}
+@media only screen and (max-width: 627px) {
+  .cardname {
+    height: 280px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 11px;
+  }
+ 
+.cardname .top {
+  padding-top: 34px !important;
+  padding-left: 55px !important;
+}
+.cardname .top .name {
+  font-size: 16px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 11px !important;
+}
+.cardname .bottom {
+  padding-top: 18px !important;
+  padding-left: 105px !important;
+} 
+  
+  
+}
+@media only screen and (max-width: 607px) {
+  .cardname {
+    height: 270px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+ 
+.cardname .top {
+  padding-top: 32px !important;
+  padding-left: 52px !important;
+}
+.cardname .top .name {
+  font-size: 16px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 11px !important;
+}
+.cardname .bottom {
+  padding-top: 16px !important;
+  padding-left: 95px !important;
+} 
+ 
+  
+}
+@media only screen and (max-width: 581px) {
+  .cardname {
+    height: 265px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+ 
+.cardname .top {
+  padding-top: 30px !important;
+  padding-left: 55px !important;
+}
+.cardname .top .name {
+  font-size: 16px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 11px !important;
+}
+.cardname .bottom {
+  padding-top: 16px !important;
+  padding-left: 100px !important;
+} 
+ 
+  
+ 
+  
+}
+
+@media only screen and (max-width: 575px) {
+  .cardname {
+    height: 290px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 11px;
+  }
+ 
+.cardname .top {
+  padding-top: 38px !important;
+  padding-left: 52px !important;
+}
+.cardname .top .name {
+  font-size: 16px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 11px !important;
+}
+.cardname .bottom {
+  padding-top: 22px !important;
+  padding-left: 100px !important;
+} 
+ 
+  
+}
+@media only screen and (max-width: 558px) {
+  .cardname {
+    height: 290px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 11px;
+  }
+ 
+.cardname .top {
+  padding-top: 38px !important;
+  padding-left: 52px !important;
+}
+.cardname .top .name {
+  font-size: 16px !important;
+}
+.cardname .top .major {
+  padding-top: 14px !important;
+  font-size: 11px !important;
+}
+.cardname .bottom {
+  padding-top: 22px !important;
+  padding-left: 100px !important;
+} 
+  
+  
+}
+@media only screen and (max-width: 543px) {
+  .cardname {
+    height: 280px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+ 
+.cardname .top {
+  padding-top: 35px !important;
+  padding-left: 50px !important;
+}
+.cardname .top .name {
+  font-size: 16px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 11px !important;
+}
+.cardname .bottom {
+  padding-top: 22px !important;
+  padding-left: 98px !important;
+} 
+  
+}
+@media only screen and (max-width: 522px) {
+  .cardname {
+    height: 270px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+ 
+.cardname .top {
+  padding-top: 32px !important;
+  padding-left: 48px !important;
+}
+.cardname .top .name {
+  font-size: 16px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 11px !important;
+}
+.cardname .bottom {
+  padding-top: 20px !important;
+  padding-left: 95px !important;
+} 
+ 
+  
+}
+@media only screen and (max-width: 510px) {
+  .cardname {
+    height: 270px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+ 
+.cardname .top {
+  padding-top: 32px !important;
+  padding-left: 48px !important;
+}
+.cardname .top .name {
+  font-size: 16px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 11px !important;
+}
+.cardname .bottom {
+  padding-top: 18px !important;
+  padding-left: 100px !important;
+} 
+  
+  
+}
+@media only screen and (max-width: 499px) {
+  .cardname {
+    height: 260px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 10px;
+  }
+ 
+.cardname .top {
+  padding-top: 30px !important;
+  padding-left: 48px !important;
+}
+.cardname .top .name {
+  font-size: 15px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 10px !important;
+}
+.cardname .bottom {
+  padding-top: 18px !important;
+  padding-left: 95px !important;
+} 
+  
+  
+}
+@media only screen and (max-width: 472px) {
+  .cardname {
+    height: 245px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 9px;
+  }
+ 
+.cardname .top {
+  padding-top: 25px !important;
+  padding-left: 48px !important;
+}
+.cardname .top .name {
+  font-size: 15px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 10px !important;
+}
+.cardname .bottom {
+  padding-top: 18px !important;
+  padding-left: 92px !important;
+} 
+  
+}
+@media only screen and (max-width: 446px) {
+  .cardname {
+    height: 225px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 9px;
+  }
+ 
+.cardname .top {
+  padding-top: 22px !important;
+  padding-left: 40px !important;
+}
+.cardname .top .name {
+  font-size: 13px !important;
+}
+.cardname .top .major {
+  padding-top: 12px !important;
+  font-size: 8.5px !important;
+}
+.cardname .bottom {
+  padding-top: 18px !important;
+  padding-left: 80px !important;
+} 
+
+}
+@media only screen and (max-width: 423px) {
+  .cardname {
+    height: 210px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 8px;
+  }
+ 
+.cardname .top {
+  padding-top: 22px !important;
+  padding-left: 35px !important;
+}
+.cardname .top .name {
+  font-size: 12px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 8px !important;
+}
+.cardname .bottom {
+  padding-top: 15px !important;
+  padding-left: 70px !important;
+} 
+  
+  
+}
+@media only screen and (max-width: 400px) {
+  .cardname {
+    height: 195px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 8px;
+  }
+ 
+.cardname .top {
+  padding-top: 18px !important;
+  padding-left: 32px !important;
+}
+.cardname .top .name {
+  font-size: 12px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 8px !important;
+}
+.cardname .bottom {
+  padding-top: 12px !important;
+  padding-left: 65px !important;
+} 
+  
+  
+}
+@media only screen and (max-width: 386px) {
+  .cardname {
+    height: 190px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 7.5px;
+  }
+ 
+.cardname .top {
+  padding-top: 18px !important;
+  padding-left: 32px !important;
+}
+.cardname .top .name {
+  font-size: 12px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 7.5px !important;
+}
+.cardname .bottom {
+  padding-top: 10px !important;
+  padding-left: 65px !important;
+} 
+  
+}
+@media only screen and (max-width: 368px) {
+  .cardname {
+    height: 185px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 7px;
+  }
+ 
+.cardname .top {
+  padding-top: 15px !important;
+  padding-left: 32px !important;
+}
+.cardname .top .name {
+  font-size: 12px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 7px !important;
+}
+.cardname .bottom {
+  padding-top: 12px !important;
+  padding-left: 65px !important;
+} 
+  
+ 
+}
+@media only screen and (max-width: 367px) {
+  .cardname {
+    height: 175px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 7px;
+  }
+ 
+.cardname .top {
+  padding-top: 15px !important;
+  padding-left: 28px !important;
+}
+.cardname .top .name {
+  font-size: 10.5px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 7px !important;
+}
+.cardname .bottom {
+  padding-top: 12px !important;
+  padding-left: 60px !important;
+} 
+ 
+}
+@media only screen and (max-width: 355px) {
+  .cardname {
+    height: 175px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 7px;
+  }
+ 
+.cardname .top {
+  padding-top: 15px !important;
+  padding-left: 28px !important;
+}
+.cardname .top .name {
+  font-size: 10.5px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 7px !important;
+}
+.cardname .bottom {
+  padding-top: 12px !important;
+  padding-left: 60px !important;
+} 
+  
+}
+@media only screen and (max-width: 347px) {
+  .cardname {
+    height: 170px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 6.5px;
+  }
+ 
+.cardname .top {
+  padding-top: 12px !important;
+  padding-left: 28px !important;
+}
+.cardname .top .name {
+  font-size: 10.5px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 6.5px !important;
+}
+.cardname .bottom {
+  padding-top: 12px !important;
+  padding-left: 60px !important;
+} 
+  
+}
+@media only screen and (max-width: 337px) {
+  .cardname {
+    height: 160px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 6px;
+  }
+ 
+.cardname .top {
+  padding-top: 10px !important;
+  padding-left: 25px !important;
+}
+.cardname .top .name {
+  font-size: 9px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 6px !important;
+}
+.cardname .bottom {
+  padding-top: 8px !important;
+  padding-left: 55px !important;
+} 
+
+  
+}
+@media only screen and (max-width: 327px) {
+  .cardname {
+    height: 150px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 6px;
+  }
+ 
+.cardname .top {
+  padding-top: 10px !important;
+  padding-left: 25px !important;
+}
+.cardname .top .name {
+  font-size: 9px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 6px !important;
+}
+.cardname .bottom {
+  padding-top: 8px !important;
+  padding-left: 55px !important;
+} 
+  
+}
+@media only screen and (max-width: 318px) {
+  .cardname {
+    height: 145px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 5.5px;
+  }
+ 
+.cardname .top {
+  padding-top: 10px !important;
+  padding-left: 25px !important;
+}
+.cardname .top .name {
+  font-size: 8px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 5.5px !important;
+}
+.cardname .bottom {
+  padding-top: 10px !important;
+  padding-left: 50px !important;
+} 
+  
+}
+@media only screen and (max-width: 308px) {
+  .cardname {
+    height: 145px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 5.5px;
+  }
+ 
+.cardname .top {
+  padding-top: 8px !important;
+  padding-left: 25px !important;
+}
+.cardname .top .name {
+  font-size: 8px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 5.5px !important;
+}
+.cardname .bottom {
+  padding-top: 10px !important;
+  padding-left: 50px !important;
+} 
+  
+}
+@media only screen and (max-width: 298px) {
+  .cardname {
+    height: 135px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 5px;
+  }
+ 
+.cardname .top {
+  padding-top: 8px !important;
+  padding-left: 25px !important;
+}
+.cardname .top .name {
+  font-size: 7px !important;
+}
+.cardname .top .major {
+  padding-top: 7px !important;
+  font-size: 5px !important;
+}
+.cardname .bottom {
+  padding-top: 8px !important;
+  padding-left: 45px !important;
+} 
+ 
+}
+@media only screen and (max-width: 290px) {
+  .cardname {
+    height: 140px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 4.5px;
+  }
+ 
+.cardname .top {
+  padding-top: 5px !important;
+  padding-left: 20px !important;
+}
+.cardname .top .name {
+  font-size: 7px !important;
+}
+.cardname .top .major {
+  padding-top: 9px !important;
+  font-size: 4.5px !important;
+}
+.cardname .bottom {
+  padding-top: 8px !important;
+  padding-left: 42px !important;
+} 
+}
+@media only screen and (max-width: 288px) {
+  .cardname {
+    height: 140px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 4.5px;
+  }
+ 
+.cardname .top {
+  padding-top: 8px !important;
+  padding-left: 25px !important;
+}
+.cardname .top .name {
+  font-size: 7px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 4.5px !important;
+}
+.cardname .bottom {
+  padding-top: 10px !important;
+  padding-left: 48px !important;
+} 
+ 
+}
+@media only screen and (max-width: 280px) {
+  .cardname {
+    height: 130px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2.5px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 4px;
+  }
+ 
+.cardname .top {
+  padding-top: 5px !important;
+  padding-left: 22px !important;
+}
+.cardname .top .name {
+  font-size: 7px !important;
+}
+.cardname .top .major {
+  padding-top: 8px !important;
+  font-size: 4px !important;
+}
+.cardname .bottom {
+  padding-top: 8px !important;
+  padding-left: 45px !important;
+} 
+ 
+}
+@media only screen and (max-width: 269px) {
+  .cardname {
+    height: 125px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2.4px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 4px;
+  }
+ 
+.cardname .top {
+  padding-top: 4px !important;
+  padding-left: 20px !important;
+}
+.cardname .top .name {
+  font-size: 7px !important;
+}
+.cardname .top .major {
+  padding-top: 7px !important;
+  font-size: 4px !important;
+}
+.cardname .bottom {
+  padding-top: 9px !important;
+  padding-left: 42px !important;
+} 
+  
+}
+@media only screen and (max-width: 260px) {
+  .cardname {
+    height: 120px !important;
+  }
+  .cardname .list-group-item {
+    padding: 2.4px !important;
+  }
+  .cardname .list-group-item a {
+    font-size: 3.5px;
+  }
+ 
+.cardname .top {
+  padding-top: 4px !important;
+  padding-left: 20px !important;
+}
+.cardname .top .name {
+  font-size: 6px !important;
+}
+.cardname .top .major {
+  padding-top: 7px !important;
+  font-size: 3.5px !important;
+}
+.cardname .bottom {
+  padding-top: 9px !important;
+  padding-left: 42px !important;
+} 
+}

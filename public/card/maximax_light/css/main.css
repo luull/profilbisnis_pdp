@@ -1,0 +1,1566 @@
+.cardname {
+  background: url("../img/maximax_light.png");
+  padding: 20px;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  border-radius: 10px;
+  border: 1px solid #000;
+  font-family: 'Metropolis Medium' !important;
+  color: #000;
+}
+.cardname .list-group {
+  border: none !important;
+  background: transparent !important;
+}
+.cardname .list-group-item {
+  padding: 10px !important;
+  border: none !important;
+  background: transparent !important;
+}
+.cardname .list-group-item a {
+  padding: 0px !important;
+  border: none !important;
+  background: transparent !important;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.cardname .left{
+  padding-top: 70px;
+  padding-left: 40px;
+}
+.cardname .left .name {
+  text-transform: uppercase !important;
+  font-family: 'Metropolis Extra Bold' !important;
+  font-size: 23px;
+}
+.cardname .left .major {
+  letter-spacing: 1 !important;
+  font-family: 'Metropolis Light Italic' !important;
+}
+.cardname .right {
+  padding-top: 128px;
+}
+
+.cardname .right .address {
+  padding-left: 150px !important;
+}
+.cardname .right .hp {
+  padding-left: 110px !important;
+}
+.cardname .right .email {
+  padding-left: 70px !important;
+}
+.cardname .right .website {
+  padding-left: 30px !important;
+}
+
+@media only screen and (max-width: 1040px) {
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 9px !important;
+  }
+  .cardname .left{
+    padding-top: 30px !important;
+    padding-left: 40px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 98px !important;
+  }
+  .cardname .right li a {
+    font-size: 11px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 130px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 95px !important;
+  }
+  .cardname .right .email {
+    padding-left: 60px !important;
+  }
+  .cardname .right .website {
+    padding-left: 30px !important;
+  }
+  
+  
+}
+@media only screen and (max-width: 992px) {
+  .cardname {
+    height: 340px !important;
+  }
+  .cardname .list-group-item {
+    padding: 8px !important;
+  }
+  .cardname .left{
+    padding-top: 30px !important;
+    padding-left: 40px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 108px !important;
+  }
+  .cardname .right li a {
+    font-size: 14px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 140px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 105px !important;
+  }
+  .cardname .right .email {
+    padding-left: 70px !important;
+  }
+  .cardname .right .website {
+    padding-left: 30px !important;
+  }
+  
+  
+}
+@media only screen and (max-width: 962px) {
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 30px !important;
+    padding-left: 40px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 110px !important;
+  }
+  .cardname .right li a {
+    font-size: 13px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 130px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 95px !important;
+  }
+  .cardname .right .email {
+    padding-left: 60px !important;
+  }
+  .cardname .right .website {
+    padding-left: 30px !important;
+  }
+  
+}
+@media only screen and (max-width: 904px) {
+  .cardname {
+    height: 300px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 30px !important;
+    padding-left: 40px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 100px !important;
+    font-size: 15px !important;
+  }
+  .cardname .right li a {
+    font-size: 12px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 130px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 95px !important;
+  }
+  .cardname .right .email {
+    padding-left: 60px !important;
+  }
+  .cardname .right .website {
+    padding-left: 30px !important;
+  }
+  
+}
+@media only screen and (max-width: 874px) {
+  .cardname {
+    height: 300px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 90px !important;
+  }
+  .cardname .right li a {
+    font-size: 12px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 120px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 90px !important;
+  }
+  .cardname .right .email {
+    padding-left: 60px !important;
+  }
+  .cardname .right .website {
+    padding-left: 30px !important;
+  }
+  
+}
+@media only screen and (max-width: 848px) {
+  .cardname {
+    height: 290px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 15px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 92px !important;
+  }
+  .cardname .right li a {
+    font-size: 11px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 115px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 85px !important;
+  }
+  .cardname .right .email {
+    padding-left: 55px !important;
+  }
+  .cardname .right .website {
+    padding-left: 25px !important;
+  }
+  
+}
+@media only screen and (max-width: 805px) {
+  .cardname {
+    height: 280px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 15px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 18px !important;
+  }
+  .cardname .left .major {
+    font-size:12px !important
+  }
+  .cardname .right {
+    padding-top: 84px !important;
+  }
+  .cardname .right li a {
+    font-size: 10px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 115px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 85px !important;
+  }
+  .cardname .right .email {
+    padding-left: 55px !important;
+  }
+  .cardname .right .website {
+    padding-left: 25px !important;
+  }
+  
+}
+@media only screen and (max-width: 775px) {
+  .cardname {
+    height: 270px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6px !important;
+  }
+  .cardname .left{
+    padding-top: 15px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 18px !important;
+  }
+  .cardname .left .major {
+    font-size:12px !important
+  }
+  .cardname .right {
+    padding-top: 82px !important;
+  }
+  .cardname .right li a {
+    font-size: 10px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 105px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 75px !important;
+  }
+  .cardname .right .email {
+    padding-left: 45px !important;
+  }
+  .cardname .right .website {
+    padding-left: 20px !important;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .cardname {
+    height: 340px !important;
+  }
+  .cardname .list-group-item {
+    padding: 8px !important;
+  }
+  .cardname .left{
+    padding-top: 30px !important;
+    padding-left: 40px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 108px !important;
+  }
+  .cardname .right li a {
+    font-size: 13px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 140px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 105px !important;
+  }
+  .cardname .right .email {
+    padding-left: 70px !important;
+  }
+  .cardname .right .website {
+    padding-left: 30px !important;
+  }
+  
+  
+}
+@media only screen and (max-width: 753px) {
+  .cardname {
+    height: 320px !important;
+  }
+  .cardname .list-group-item {
+    padding: 8px !important;
+  }
+  .cardname .left{
+    padding-top: 30px !important;
+    padding-left: 40px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 102px !important;
+  }
+  .cardname .right li a {
+    font-size: 12px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 130px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 95px !important;
+  }
+  .cardname .right .email {
+    padding-left: 60px !important;
+  }
+  .cardname .right .website {
+    padding-left: 30px !important;
+  }
+  
+  
+}
+@media only screen and (max-width: 708px) {
+  .cardname {
+    height: 300px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 92px !important;
+  }
+  .cardname .right li a {
+    font-size: 12px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 120px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 90px !important;
+  }
+  .cardname .right .email {
+    padding-left: 60px !important;
+  }
+  .cardname .right .website {
+    padding-left: 25px !important;
+  }  
+  
+}
+@media only screen and (max-width: 685px) {
+  .cardname {
+    height: 300px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 20px !important;
+  }
+  .cardname .left .major {
+    font-size:14px !important
+  }
+  .cardname .right {
+    padding-top: 95px !important;
+  }
+  .cardname .right li a {
+    font-size: 10px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 125px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 95px !important;
+  }
+  .cardname .right .email {
+    padding-left: 65px !important;
+  }
+  .cardname .right .website {
+    padding-left: 35px !important;
+  }  
+  
+}
+@media only screen and (max-width: 647px) {
+  .cardname {
+    height: 285px !important;
+  }
+  .cardname .list-group-item {
+    padding: 8px !important;
+  }
+  .cardname .left{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 18px !important;
+  }
+  .cardname .left .major {
+    font-size:12px !important
+  }
+  .cardname .right {
+    padding-top: 88px !important;
+  }
+  .cardname .right li a {
+    font-size: 9px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 115px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 85px !important;
+  }
+  .cardname .right .email {
+    padding-left: 55px !important;
+  }
+  .cardname .right .website {
+    padding-left: 30px !important;
+  }  
+  
+}
+@media only screen and (max-width: 604px) {
+  .cardname {
+    height: 265px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 16px !important;
+  }
+  .cardname .left .major {
+    font-size:10px !important
+  }
+  .cardname .right {
+    padding-top: 78px !important;
+  }
+  .cardname .right li a {
+    font-size: 9px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 105px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 75px !important;
+  }
+  .cardname .right .email {
+    padding-left: 50px !important;
+  }
+  .cardname .right .website {
+    padding-left: 25px !important;
+  }  
+  
+}
+@media only screen and (max-width: 581px) {
+  .cardname {
+    height: 255px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 15px !important;
+    padding-left: 25px !important;
+  }
+  .cardname .left .name {
+    font-size: 16px !important;
+  }
+  .cardname .left .major {
+    font-size:10px !important
+  }
+  .cardname .right {
+    padding-top: 72px !important;
+  }
+  .cardname .right li a {
+    font-size: 9px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 100px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 75px !important;
+  }
+  .cardname .right .email {
+    padding-left: 45px !important;
+  }
+  .cardname .right .website {
+    padding-left: 25px !important;
+  }  
+  
+}
+@media only screen and (max-width: 580px) {
+  .cardname {
+    height: 250px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6px !important;
+  }
+  .cardname .left{
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 18px !important;
+  }
+  .cardname .left .major {
+    font-size:12px !important
+  }
+  .cardname .right {
+    padding-top: 75px !important;
+  }
+  .cardname .right li a {
+    font-size: 9px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 100px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 75px !important;
+  }
+  .cardname .right .email {
+    padding-left: 45px !important;
+  }
+  .cardname .right .website {
+    padding-left: 20px !important;
+  }
+  
+}
+@media only screen and (max-width: 575px) {
+  .cardname {
+    height: 290px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 18px !important;
+  }
+  .cardname .left .major {
+    font-size:12px !important
+  }
+  .cardname .right {
+    padding-top: 95px !important;
+  }
+  .cardname .right li a {
+    font-size: 10px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 110px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 85px !important;
+  }
+  .cardname .right .email {
+    padding-left: 55px !important;
+  }
+  .cardname .right .website {
+    padding-left: 20px !important;
+  }
+  
+}
+@media only screen and (max-width: 558px) {
+  .cardname {
+    height: 290px !important;
+  }
+  .cardname .list-group-item {
+    padding: 7px !important;
+  }
+  .cardname .left{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 18px !important;
+  }
+  .cardname .left .major {
+    font-size:12px !important
+  }
+  .cardname .right {
+    padding-top: 90px !important;
+  }
+  .cardname .right li a {
+    font-size: 10px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 110px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 80px !important;
+  }
+  .cardname .right .email {
+    padding-left: 50px !important;
+  }
+  .cardname .right .website {
+    padding-left: 25px !important;
+  }
+  
+}
+@media only screen and (max-width: 543px) {
+  .cardname {
+    height: 280px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6.5px !important;
+  }
+  .cardname .left{
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 18px !important;
+  }
+  .cardname .left .major {
+    font-size:12px !important
+  }
+  .cardname .right {
+    padding-top: 86px !important;
+  }
+  .cardname .right li a {
+    font-size: 10px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 105px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 75px !important;
+  }
+  .cardname .right .email {
+    padding-left: 45px !important;
+  }
+  .cardname .right .website {
+    padding-left: 20px !important;
+  }
+  
+}
+@media only screen and (max-width: 522px) {
+  .cardname {
+    height: 270px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6.5px !important;
+  }
+  .cardname .left{
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+  }
+  .cardname .left .name {
+    font-size: 18px !important;
+  }
+  .cardname .left .major {
+    font-size:12px !important
+  }
+  .cardname .right {
+    padding-top: 80px !important;
+  }
+  .cardname .right li a {
+    font-size: 10px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 105px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 75px !important;
+  }
+  .cardname .right .email {
+    padding-left: 50px !important;
+  }
+  .cardname .right .website {
+    padding-left: 25px !important;
+  }
+  
+}
+@media only screen and (max-width: 510px) {
+  .cardname {
+    height: 260px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6.5px !important;
+  }
+  .cardname .left{
+    padding-top: 15px !important;
+    padding-left: 20px !important;
+  }
+  .cardname .left .name {
+    font-size: 16px !important;
+  }
+  .cardname .left .major {
+    font-size:10px !important
+  }
+  .cardname .right {
+    padding-top: 78px !important;
+  }
+  .cardname .right li a {
+    font-size: 9px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 100px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 70px !important;
+  }
+  .cardname .right .email {
+    padding-left: 45px !important;
+  }
+  .cardname .right .website {
+    padding-left: 15px !important;
+  }
+  
+}
+@media only screen and (max-width: 485px) {
+  .cardname {
+    height: 250px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6.5px !important;
+  }
+  .cardname .left{
+    padding-top: 15px !important;
+    padding-left: 25px !important;
+  }
+  .cardname .left .name {
+    font-size: 16px !important;
+  }
+  .cardname .left .major {
+    font-size:10px !important
+  }
+  .cardname .right {
+    padding-top: 74px !important;
+  }
+  .cardname .right li a {
+    font-size: 8px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 100px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 70px !important;
+  }
+  .cardname .right .email {
+    padding-left: 45px !important;
+  }
+  .cardname .right .website {
+    padding-left: 20px !important;
+  }
+  
+}
+@media only screen and (max-width: 472px) {
+  .cardname {
+    height: 235px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6.5px !important;
+  }
+  .cardname .left{
+    padding-top: 5px !important;
+    padding-left: 20px !important;
+  }
+  .cardname .left .name {
+    font-size: 16px !important;
+  }
+  .cardname .left .major {
+    font-size:10px !important
+  }
+  .cardname .right {
+    padding-top: 70px !important;
+  }
+  .cardname .right li a {
+    font-size: 7px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 90px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 65px !important;
+  }
+  .cardname .right .email {
+    padding-left: 40px !important;
+  }
+  .cardname .right .website {
+    padding-left: 20px !important;
+  }
+  
+}
+@media only screen and (max-width: 446px) {
+  .cardname {
+    height: 225px !important;
+  }
+  .cardname .list-group-item {
+    padding: 6.5px !important;
+  }
+  .cardname .left{
+    padding-top: 5px !important;
+    padding-left: 20px !important;
+  }
+  .cardname .left .name {
+    font-size: 16px !important;
+  }
+  .cardname .left .major {
+    font-size:10px !important
+  }
+  .cardname .right {
+    padding-top: 70px !important;
+  }
+  .cardname .right li a {
+    font-size: 7px !important;
+  }
+  
+  .cardname .right .address {
+    padding-left: 90px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 65px !important;
+  }
+  .cardname .right .email {
+    padding-left: 40px !important;
+  }
+  .cardname .right .website {
+    padding-left: 20px !important;
+  }
+}
+@media only screen and (max-width: 423px) {
+  .cardname {
+    height: 210px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5.5px !important;
+  }
+  .cardname .left{
+    padding-top: 5px !important;
+    padding-left: 20px !important;
+  }
+  .cardname .left .name {
+    font-size: 14px !important;
+  }
+  .cardname .left .major {
+    font-size:8px !important
+  }
+  .cardname .right {
+    padding-top: 60px !important;
+  }
+  .cardname .right li a {
+    font-size: 7px !important;
+  }
+  .cardname .right .address {
+    padding-left: 75px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 55px !important;
+  }
+  .cardname .right .email {
+    padding-left: 35px !important;
+  }
+  .cardname .right .website {
+    padding-left: 15px !important;
+  }
+  
+}
+@media only screen and (max-width: 400px) {
+  .cardname {
+    height: 195px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+  }
+  .cardname .left .name {
+    font-size: 14px !important;
+  }
+  .cardname .left .major {
+    font-size:8px !important
+  }
+  .cardname .right {
+    padding-top: 52px !important;
+  }
+  .cardname .right li a {
+    font-size: 7px !important;
+  }
+  .cardname .right .address {
+    padding-left: 70px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 50px !important;
+  }
+  .cardname .right .email {
+    padding-left: 30px !important;
+  }
+  .cardname .right .website {
+    padding-left: 10px !important;
+  }
+  
+}
+@media only screen and (max-width: 386px) {
+  .cardname {
+    height: 190px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+  }
+  .cardname .left .name {
+    font-size: 14px !important;
+  }
+  .cardname .left .major {
+    font-size:8px !important
+  }
+  .cardname .right {
+    padding-top: 52px !important;
+  }
+  .cardname .right li a {
+    font-size: 6.5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 70px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 50px !important;
+  }
+  .cardname .right .email {
+    padding-left: 30px !important;
+  }
+  .cardname .right .website {
+    padding-left: 10px !important;
+  }
+  
+}
+@media only screen and (max-width: 376px) {
+  .cardname {
+    height: 185px !important;
+  }
+  .cardname .list-group-item {
+    padding: 5px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+  }
+  .cardname .left .name {
+    font-size: 14px !important;
+  }
+  .cardname .left .major {
+    font-size:8px !important
+  }
+  .cardname .right {
+    padding-top: 48px !important;
+  }
+  .cardname .right li a {
+    font-size: 6px !important;
+  }
+  .cardname .right .address {
+    padding-left: 65px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 45px !important;
+  }
+  .cardname .right .email {
+    padding-left: 30px !important;
+  }
+  .cardname .right .website {
+    padding-left: 10px !important;
+  }
+  
+}
+@media only screen and (max-width: 367px) {
+  .cardname {
+    height: 175px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+  }
+  .cardname .left .name {
+    font-size: 12px !important;
+  }
+  .cardname .left .major {
+    font-size:6px !important
+  }
+  .cardname .right {
+    padding-top: 48px !important;
+  }
+  .cardname .right li a {
+    font-size: 6px !important;
+  }
+  .cardname .right .address {
+    padding-left: 65px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 45px !important;
+  }
+  .cardname .right .email {
+    padding-left: 30px !important;
+  }
+  .cardname .right .website {
+    padding-left: 10px !important;
+  }
+  
+}
+@media only screen and (max-width: 355px) {
+  .cardname {
+    height: 170px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+  }
+  .cardname .left .name {
+    font-size: 12px !important;
+  }
+  .cardname .left .major {
+    font-size:6px !important
+  }
+  .cardname .right {
+    padding-top: 46px !important;
+  }
+  .cardname .right li a {
+    font-size: 6px !important;
+  }
+  .cardname .right .address {
+    padding-left: 60px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 40px !important;
+  }
+  .cardname .right .email {
+    padding-left: 25px !important;
+  }
+  .cardname .right .website {
+    padding-left: 10px !important;
+  }
+  
+}
+@media only screen and (max-width: 347px) {
+  .cardname {
+    height: 170px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 15px !important;
+  }
+  .cardname .left .name {
+    font-size: 12px !important;
+  }
+  .cardname .left .major {
+    font-size:6px !important
+  }
+  .cardname .right {
+    padding-top: 46px !important;
+  }
+  .cardname .right li a {
+    font-size: 5.5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 60px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 45px !important;
+  }
+  .cardname .right .email {
+    padding-left: 25px !important;
+  }
+  .cardname .right .website {
+    padding-left: 10px !important;
+  }
+  
+}
+@media only screen and (max-width: 337px) {
+  .cardname {
+    height: 160px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 12px !important;
+  }
+  .cardname .left .name {
+    font-size: 10px !important;
+  }
+  .cardname .left .major {
+    font-size:4px !important
+  }
+  .cardname .right {
+    padding-top: 40px !important;
+  }
+  .cardname .right li a {
+    font-size: 5.5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 55px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 40px !important;
+  }
+  .cardname .right .email {
+    padding-left: 25px !important;
+  }
+  .cardname .right .website {
+    padding-left: 5px !important;
+  }
+  
+}
+@media only screen and (max-width: 327px) {
+  .cardname {
+    height: 150px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3.5px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 12px !important;
+  }
+  .cardname .left .name {
+    font-size: 10px !important;
+  }
+  .cardname .left .major {
+    font-size:4px !important
+  }
+  .cardname .right {
+    padding-top: 40px !important;
+  }
+  .cardname .right li a {
+    font-size: 5.5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 50px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 35px !important;
+  }
+  .cardname .right .email {
+    padding-left: 20px !important;
+  }
+  .cardname .right .website {
+    padding-left: 5px !important;
+  }
+  
+}
+@media only screen and (max-width: 318px) {
+  .cardname {
+    height: 145px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3.5px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 12px !important;
+  }
+  .cardname .left .name {
+    font-size: 10px !important;
+  }
+  .cardname .left .major {
+    font-size:4px !important
+  }
+  .cardname .right {
+    padding-top: 38px !important;
+  }
+  .cardname .right li a {
+    font-size: 5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 50px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 35px !important;
+  }
+  .cardname .right .email {
+    padding-left: 20px !important;
+  }
+  .cardname .right .website {
+    padding-left: 5px !important;
+  }
+  
+}
+@media only screen and (max-width: 308px) {
+  .cardname {
+    height: 140px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 10px !important;
+  }
+  .cardname .left .name {
+    font-size: 10px !important;
+  }
+  .cardname .left .major {
+    font-size:4px !important
+  }
+  .cardname .right {
+    padding-top: 35px !important;
+  }
+  .cardname .right li a {
+    font-size: 4.5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 50px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 35px !important;
+  }
+  .cardname .right .email {
+    padding-left: 20px !important;
+  }
+  .cardname .right .website {
+    padding-left: 5px !important;
+  }
+  
+}
+@media only screen and (max-width: 298px) {
+  .cardname {
+    height: 135px !important;
+  }
+  .cardname .list-group-item {
+    padding: 4px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 10px !important;
+  }
+  .cardname .left .name {
+    font-size: 9px !important;
+  }
+  .cardname .left .major {
+    font-size:3px !important
+  }
+  .cardname .right {
+    padding-top: 32px !important;
+  }
+  .cardname .right li a {
+    font-size: 4.5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 45px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 30px !important;
+  }
+  .cardname .right .email {
+    padding-left: 15px !important;
+  }
+  .cardname .right .website {
+    padding-left: 3px !important;
+  }
+  
+}
+@media only screen and (max-width: 290px) {
+  .cardname {
+    height: 135px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3.5px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 10px !important;
+  }
+  .cardname .left .name {
+    font-size: 9px !important;
+  }
+  .cardname .left .major {
+    font-size:3px !important
+  }
+  .cardname .right {
+    padding-top: 32px !important;
+  }
+  .cardname .right li a {
+    font-size: 4px !important;
+  }
+  .cardname .right .address {
+    padding-left: 45px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 30px !important;
+  }
+  .cardname .right .email {
+    padding-left: 15px !important;
+  }
+  .cardname .right .website {
+    padding-left: 3px !important;
+  }
+  
+}
+@media only screen and (max-width: 286px) {
+  .cardname {
+    height: 125px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 8px !important;
+  }
+  .cardname .left .name {
+    font-size: 9px !important;
+  }
+  .cardname .left .major {
+    font-size:3px !important
+  }
+  .cardname .right {
+    padding-top: 30px !important;
+  }
+  .cardname .right li a {
+    font-size: 4px !important;
+  }
+  .cardname .right .address {
+    padding-left: 40px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 25px !important;
+  }
+  .cardname .right .email {
+    padding-left: 15px !important;
+  }
+  .cardname .right .website {
+    padding-left: 3px !important;
+  }
+  
+}
+@media only screen and (max-width: 269px) {
+  .cardname {
+    height: 118px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3.5px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 8px !important;
+  }
+  .cardname .left .name {
+    font-size: 9px !important;
+  }
+  .cardname .left .major {
+    font-size:3px !important
+  }
+  .cardname .right {
+    padding-top: 26px !important;
+  }
+  .cardname .right li a {
+    font-size: 3.5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 38px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 25px !important;
+  }
+  .cardname .right .email {
+    padding-left: 15px !important;
+  }
+  .cardname .right .website {
+    padding-left: 2px !important;
+  }
+  
+}
+@media only screen and (max-width: 257px) {
+  .cardname {
+    height: 115px !important;
+  }
+  .cardname .list-group-item {
+    padding: 3.5px !important;
+  }
+  .cardname .left{
+    padding-top: 0px !important;
+    padding-left: 7px !important;
+  }
+  .cardname .left .name {
+    font-size: 7.5px !important;
+  }
+  .cardname .left .major {
+    font-size:2.5px !important
+  }
+  .cardname .right {
+    padding-top: 22px !important;
+  }
+  .cardname .right li a {
+    font-size: 3.5px !important;
+  }
+  .cardname .right .address {
+    padding-left: 35px !important;
+  }
+  .cardname .right .hp {
+    padding-left: 23px !important;
+  }
+  .cardname .right .email {
+    padding-left: 13px !important;
+  }
+  .cardname .right .website {
+    padding-left: 0px !important;
+  }
+  
+}
