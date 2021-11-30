@@ -30,9 +30,9 @@
     <div class="row justify-content-center m-3 mt-5  ">
         <div class="col-lg-7 col-md-8 col-sm-10 col-12">
             <div id="htmltoimage">
-                <div class="cardname" onclick="javascript:goToURL()" id="get" data-name="{{ session('data')->username }}">
+                <div class="cardname" id="get" data-name="{{ session('data')->username }}">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" onclick="javascript:goToURL()">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 foto">
                                     <img src="{{asset($data->foto)}}" class="img-fluid">
@@ -70,19 +70,26 @@
                                         @if (!@empty($data->hp))
                                         <li class="list-group-item hp"><a href="tel:{{ $data->hp }}" target="_blank">{{$data->hp}}</a></li>
                                         @else
-                                        <li class="list-group-item hp"><a href="#">-</a></li>
+                                        <li class="list-group-item hp"><a href="#" onclick="javascript:goToURL()">-</a></li>
                                         @endif
                                         @if (!@empty($data->email))
                                         <li class="list-group-item email"><a href="mailto:{{ $data->email }}" target="_blank">{{$data->email}}</a></li>
                                         @else
-                                        <li class="list-group-item email"><a href="#">-</a></li>
+                                        <li class="list-group-item email"><a href="#" onclick="javascript:goToURL()">-</a></li>
                                         @endif
                                         @if (!@empty($data->website))
-                                        <li class="list-group-item website"><a href="{{$data->website}}" target="_blank">{{$data->website}}</a></li>
+                                        @php 
+                                        if (strtolower(substr($data->webite,0,4))!='http'){
+                                            $url='https://'.$data->website;
+                                        }else{
+                                            $url=$data->website;
+                                        }
+                                        @endphp 
+                                        <li class="list-group-item website"><a href="{{$url}}" target="_blank">{{$data->website}}</a></li>
                                         @else
-                                        <li class="list-group-item website"><a href="#">-</a></li>
+                                        <li class="list-group-item website"><a href="#" onclick="javascript:goToURL()">-</a></li>
                                         @endif
-                                        <li class="list-group-item address"><a href="#/">{{$data->city->city_name.' - '.$data->province->province}}</a></li>
+                                        <li class="list-group-item address"><a href="#" onclick="javascript:goToURL()">{{$data->city->city_name.' - '.$data->province->province}}</a></li>
 
                                     </ul>
                                 </div>
