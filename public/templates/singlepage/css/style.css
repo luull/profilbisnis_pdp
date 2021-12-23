@@ -987,7 +987,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .swiper-slide-active .slider-heading {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: normal;
     opacity: 0;
     animation: fadeUp 1s forwards;
@@ -996,7 +996,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .swiper-slide-active .slider-heading span {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
 }
 
