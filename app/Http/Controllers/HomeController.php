@@ -10,7 +10,10 @@ use App\Wa_template;
 use App\Wa_template_Default;
 use App\welcome_note;
 use App\BannerDefault;
+use App\Gallery_photo;
+use App\Testimoni;
 use App\Welcome_note_default;
+use App\Youtube;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
 use Facade\FlareClient\Http\Response;
 use Illuminate\Http\Request;
@@ -56,10 +59,11 @@ class HomeController extends Controller
         $produk = $member->produk->skip(0)->take(6)->orderBy('id', 'DESC')->get();
         $banner = $member->banner;
         $konfigurasi = Konfigurasi::first();
+        $testi = Testimoni::all();
         session(['konfigurasi' => $konfigurasi]);
         $theme = session('themes');
         $view = "templates.$theme.welcome";
-        return view($view, compact('member', 'bisnis', 'produk', 'banner', 'theme', 'bisnis_default', 'produk_default', 'welcome_note', 'welcome_note_default', 'wp', 'wa_template_default', 'produk_display','banner_default'));
+        return view($view, compact('member', 'bisnis', 'produk', 'banner', 'theme', 'bisnis_default', 'produk_default', 'welcome_note', 'welcome_note_default', 'wp', 'wa_template_default', 'produk_display','banner_default','testi'));
     }
     public function replika(request $req)
     {
@@ -111,10 +115,13 @@ class HomeController extends Controller
         $produk = $member->produk;
         $banner = $member->banner;
         $konfigurasi = Konfigurasi::first();
+        $testi = Testimoni::all();
+        $photos = Gallery_photo::all();
+        $video = Youtube::all();
         session(['konfigurasi' => $konfigurasi]);
         $theme = session('themes');
         $view = "templates.$theme.welcome";
-        return view($view, compact('member', 'bisnis', 'produk', 'banner', 'theme', 'bisnis_default', 'produk_default', 'welcome_note', 'welcome_note_default', 'wp', 'wa_template_default', 'wa_kontak', 'produk_display','banner_default'));
+        return view($view, compact('member', 'bisnis', 'produk', 'banner', 'theme', 'bisnis_default', 'produk_default', 'welcome_note', 'welcome_note_default', 'wp', 'wa_template_default', 'wa_kontak', 'produk_display','banner_default','testi','photos','video'));
     }
     function dashboard_backend()
     {

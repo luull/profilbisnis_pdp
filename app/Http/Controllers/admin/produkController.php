@@ -21,10 +21,8 @@ class produkController extends Controller
             session('admin_member_id'), request()->url(), request()->headers->get('referer'), $_SERVER['REMOTE_ADDR'], "",
         );
         save_event_log_member($a_data);
-        $bisnis = Bisnis::where('member_id', session('admin_member_id'))->get();
-        $datas = DB::select('select a.id as id,bisnis_id,nama,nama_brg,a.slug,a.harga
-        ,a.foto,a.keterangan_singkat from produk a inner join bisnis b on a.bisnis_id=b.id where a.member_id=? and b.member_id=? order by a.id desc ', [session('admin_member_id'), session('admin_member_id')]);
-        return view('admin.produk', compact('datas', 'bisnis'));
+        $datas = Produk::all();
+        return view('admin.produk', compact('datas'));
     }
     public function delete(Request $req)
     {
@@ -62,7 +60,6 @@ class produkController extends Controller
         }
         if (!empty($request->id)) {
             $validasi = $request->validate([
-                'bisnis_id' => 'required',
                 'nama_brg' => 'required',
                 'keterangan' => 'required',
                 'keterangan_singkat' => 'required'
@@ -82,7 +79,6 @@ class produkController extends Controller
                 }
                 $hsl = Produk::find($request->id)->update([
                     'member_id' => session('admin_member_id'),
-                    'bisnis_id' => $request->bisnis_id,
                     'nama_brg' => $request->nama_brg,
                     'slug' => Str::slug($request->nama_brg),
                     'keterangan' => $request->keterangan,
@@ -117,7 +113,6 @@ class produkController extends Controller
             return redirect(env('APP_URL') . '/c-panel');
         }
         $validasi = $request->validate([
-            'bisnis_id' => 'required',
             'nama_brg' => 'required',
             'keterangan' => 'required',
             'keterangan_singkat' => 'required'
@@ -134,7 +129,6 @@ class produkController extends Controller
             }
             $hsl = Produk::create([
                 'member_id' => session('admin_member_id'),
-                'bisnis_id' => $request->bisnis_id,
                 'nama_brg' => $request->nama_brg,
                 'slug' => Str::slug($request->nama_brg),
                 'keterangan' => $request->keterangan,

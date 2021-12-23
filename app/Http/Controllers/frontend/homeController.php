@@ -16,13 +16,12 @@ class homeController extends Controller
 {
     public function index()
     {
-        $judul = "Daftar Profil Mitra";
-        $member_spesial = Member::where('level', 1)->get();
-        $member_reguler = Member::where('level', 0)->get();
-        $company = Company::first();
+        // $judul = "Daftar Profil Mitra";
+        // $member_spesial = Member::where('level', 1)->get();
+        // $member_reguler = Member::where('level', 0)->get();
+        // $company = Company::first();
 
-
-        return view('frontend.home', compact('member_reguler', 'member_spesial', 'company', 'judul'));
+        return redirect('/pdp');
     }
     public function kontak()
     {

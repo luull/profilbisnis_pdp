@@ -20,8 +20,6 @@
                     <thead>
                         <tr>
                             <th>Photo</th>
-                            <th>ID Bisnis</th>
-                            <th>Nama Bisnis</th>
                             <th>Nama Barang</th>
                             <th>Slug</th>
                             <th>Ket. Singkat</th>
@@ -34,8 +32,6 @@
                 @foreach($datas as $data)
                 <tr> 
                     <td><img src="{{asset($data->foto)}}" class="img-thumbnail"></td>
-                    <td>{{$data->bisnis_id}}</td>
-                    <td>{{$data->nama}}</td>
                     <td>{{$data->nama_brg}}</td>
                     <td>{{$data->slug}}</td>
                     <td>{!!$data->keterangan_singkat!!}</td>
@@ -78,17 +74,6 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="basic-form">
-                                            <div class="form-group">
-                                                <label>ID Bisnis</label>
-                                                <select  class="form-control input-default @error('bisnis_id')is-invalid @enderror" name="bisnis_id" id="bisnis_id" >
-                                                @foreach ($bisnis as $item)
-                                                    <option value="{{$item->id}}">{{$item->nama}}</option>
-                                                @endforeach
-                                                </select>
-                                                    @error('bisnis_id')
-                                                <div class="text-danger mt-1 font-italic">{{ $message }}</div>
-                                                @enderror
-                                            </div>
                                             <div class="form-group">
                                                 <label>Nama Barang</label>
                                                 <input type="text" class="form-control input-default @error('nama_brg')is-invalid @enderror" placeholder="Nama Barang" id="nama_brg" name="nama_brg">
@@ -168,14 +153,6 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="basic-form">
-                                        <div class="form-group">
-                                            <label>ID Bisnis</label>
-                                            <select  class="form-control input-default"  id="edit_bisnis" name="bisnis_id">
-                                                @foreach ($bisnis as $item)
-                                                <option value="{{$item->id}}">{{$item->nama}}</option>
-                                            @endforeach
-                                            </select>    
-                                        </div>
                                         <div class="form-group">
                                             <label>Nama Barang</label>
                                             <input type="text" class="form-control input-default @error('nama_brg')is-invalid @enderror" placeholder="Nama Barang" id="edit_nama" name="nama_brg">
@@ -302,7 +279,6 @@
 
 
                         $("#edit_nama").val(hsl.nama_brg);
-                        $("#edit_bisnis").val(hsl.bisnis_id);
                         $("#edit_harga").val(hsl.harga);
                         $('#edit_bisnis option[value=' + hsl.bisnis_id + ']').attr('selected','selected');
                         

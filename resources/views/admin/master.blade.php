@@ -48,7 +48,7 @@
         
         <footer class="main-footer">
         <div class="footer-left">
-          Copyright &copy; 2021 MySuperBoss.Com<div class="bullet"></div> Developed By <a href="https://solusi-it.com">Solusi-IT</a>
+          Copyright &copy; 2022 PDP<div class="bullet"></div> Developed By <a href="https://solusi-it.com">Solusi-IT</a>
         </div>
         <div class="footer-right">
         </div>

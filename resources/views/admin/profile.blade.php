@@ -4,7 +4,7 @@
     <form action="{{route('update_profile')}}" method="post">
         @csrf
         <div class="card-header">
-            <h5 class="text-center">DATA PROFILE MEMBER</h5>
+            <h5 class="text-center">PROFIL</h5>
             <hr>
         </div>
         <div class="card-body">
@@ -19,23 +19,14 @@
                     <input type="hidden" name="member_id" value="{{$admin_profil->member_id}}">
                     <input type="text" class="form-control input-default @error('nama')is-invalid @enderror" value="{{$admin_profil->nama}}" name="nama"> </div>
                 </div>
-                <div class="row p-2" >
-                    <div class="col-lg-4 col-md-4 text-left">Moto</div>
-                    <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('moto')is-invalid @enderror" value="{{$admin_profil->moto}}" name="moto"> </div>
-                </div>
-                
-                <div class="row p-2" >
-                <div class="col-lg-4 col-md-4 text-left">Perusahaan <span class="text-danger">*</span></div>
-                <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('perusahaan')is-invalid @enderror" name="perusahaan" value="{{$admin_profil->perusahaan}}" >  </div>
-                </div>
-                <div class="row p-2" >
-                <div class="col-lg-4 col-md-4 text-left">Jabatan <span class="text-danger">*</span></div>
-                <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('jabatan')is-invalid @enderror" name="jabatan" value="{{$admin_profil->jabatan}}"> </div>
-                </div>
-                <div class="row p-2" >
-                <div class="col-lg-4 col-md-4 text-left">Tentang Web <span class="text-danger">*</span></div>
-                <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('tentang_web')is-invalid @enderror" name="tentang_web" value="{{$admin_profil->tentang_web}}"> </div>
-                </div>
+                {{-- <div class="col-lg-4 col-md-4 text-left">Moto</div> --}}
+                {{-- <div class="col-lg-4 col-md-4 text-left">Perusahaan <span class="text-danger">*</span></div> --}}
+               <input type="hidden" class="form-control input-default @error('perusahaan')is-invalid @enderror" name="perusahaan" value="{{$admin_profil->perusahaan}}" >
+                {{-- <div class="col-lg-4 col-md-4 text-left">Jabatan <span class="text-danger">*</span></div> --}}
+               <input type="hidden" class="form-control input-default @error('jabatan')is-invalid @enderror" name="jabatan" value="{{$admin_profil->jabatan}}">
+                {{-- <div class="col-lg-4 col-md-4 text-left">Tentang Web <span class="text-danger">*</span></div> --}}
+               <input type="hidden" class="form-control input-default @error('tentang_web')is-invalid @enderror" name="tentang_web" value="{{$admin_profil->tentang_web}}">
+               
                 <div class="row p-2" >
                 <div class="col-lg-4 col-md-4 text-left">Alamat</div>
                 <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('alamat')is-invalid @enderror" name="alamat" value="{{$admin_profil->alamat}}"> </div>
@@ -94,16 +85,16 @@
                 <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('kd_pos')is-invalid @enderror" name="kd_pos" value="{{$admin_profil->kd_pos}}"> </div>
                 </div>
                 <div class="row p-2" >
-                    <div class="col-lg-4 col-md-4 text-left">No KTP</div>
-                    <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('ktp')is-invalid @enderror" name="ktp" value="{{$admin_profil->ktp}}"> </div>
+                    {{-- <div class="col-lg-4 col-md-4 text-left">No KTP</div> --}}
+                    <div class="col-lg-8 col-md-8 text-left"><input type="hidden" class="form-control input-default @error('ktp')is-invalid @enderror" name="ktp" value="{{$admin_profil->ktp}}"> </div>
                 </div>
                 
             </div>
             <div class="col-lg-6 col-md-6 text-center text-md-left">
            
                 <div class="row p-2" >
-                <div class="col-lg-4 col-md-4 text-left">No Telp Rumah </div>
-                <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('telp')is-invalid @enderror" name="telp" value="{{$admin_profil->telp}}"> </div>
+                {{-- <div class="col-lg-4 col-md-4 text-left">No Telp Rumah </div> --}}
+                <div class="col-lg-8 col-md-8 text-left"><input type="hidden" class="form-control input-default @error('telp')is-invalid @enderror" name="telp" value="{{$admin_profil->telp}}"> </div>
                 </div>
                 <div class="row p-2" >
                 <div class="col-lg-4 col-md-4 text-left">Handphone <span class="text-danger">*</span></div>
@@ -138,21 +129,21 @@
                     <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('website')is-invalid @enderror" name="website" value="{{$admin_profil->website}}"> </div>
                 </div>
                 <div class="row p-2" >
-                    <div class="col-lg-4 col-md-4 text-left">Google Map </div>
-                    <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('map')is-invalid @enderror" name="map" value="{{$admin_profil->map}}"> </div>
+                    {{-- <div class="col-lg-4 col-md-4 text-left">Google Map </div> --}}
+                    <div class="col-lg-8 col-md-8 text-left"><input type="hidden" class="form-control input-default @error('map')is-invalid @enderror" name="map" value="{{$admin_profil->map}}"> </div>
                 </div>
                 <div class="row p-2" >
-                    <div class="col-lg-4 col-md-4 text-left">Latitude </div>
-                    <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('latitude')is-invalid @enderror" name="latitude" value="{{$admin_profil->latitude}}"> </div>
+                    {{-- <div class="col-lg-4 col-md-4 text-left">Latitude </div> --}}
+                    <div class="col-lg-8 col-md-8 text-left"><input type="hidden" class="form-control input-default @error('latitude')is-invalid @enderror" name="latitude" value="{{$admin_profil->latitude}}"> </div>
                 </div>
                 <div class="row p-2" >
-                    <div class="col-lg-4 col-md-4 text-left">Longitude </div>
-                    <div class="col-lg-8 col-md-8 text-left"><input type="text" class="form-control input-default @error('longitude')is-invalid @enderror" name="longitude" value="{{$admin_profil->longitude}}"> </div>
+                    {{-- <div class="col-lg-4 col-md-4 text-left">Longitude </div> --}}
+                    <div class="col-lg-8 col-md-8 text-left"><input type="hidden" class="form-control input-default @error('longitude')is-invalid @enderror" name="longitude" value="{{$admin_profil->longitude}}"> </div>
                 </div>
                 <div class="row p-2" >
-                    <div class="col-lg-4 col-md-4 text-left">Kartu Nama <span class="text-danger">*</span></div>
+                    {{-- <div class="col-lg-4 col-md-4 text-left">Kartu Nama <span class="text-danger">*</span></div> --}}
                     <div class="col-lg-8 col-md-8 text-left">
-                        <select name="kartu_nama" class="form-control @error('kartu_nama')is-invalid @enderror" name="kartu_nama">
+                        <select name="kartu_nama" class="form-control @error('kartu_nama')is-invalid @enderror" name="kartu_nama" hidden>
                         @foreach ($kartu_nama as $card)
                                 @if ($card->id==$admin_profil->kartu_nama_id)
                                 <option value="{{$card->id}}" selected >{{$card->nama}}</option>
@@ -164,9 +155,9 @@
                          </div>
                 </div>
                 <div class="row p-2" >
-                    <div class="col-lg-4 col-md-4 text-left">Themes <span class="text-danger">*</span></div>
+                    {{-- <div class="col-lg-4 col-md-4 text-left">Themes <span class="text-danger">*</span></div> --}}
                     <div class="col-lg-8 col-md-8 text-left">
-                        <select name="themes" class="form-control @error('themes')is-invalid @enderror" name="themes">
+                        <select name="themes" class="form-control @error('themes')is-invalid @enderror" name="themes" hidden>
                         @foreach ($themes as $theme)
                                 @if ($theme->id==$admin_profil->themes_id)
                                 <option value="{{$theme->id}}" selected >{{$theme->name}}</option>
