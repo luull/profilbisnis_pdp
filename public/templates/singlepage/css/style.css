@@ -431,7 +431,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url("../../singlepage/images/domba.jpeg");
+    background-image: url("../../singlepage/images/banner-pdp.png");
     background-size: cover;
     background-position: center;
     z-index: 2032;
@@ -941,6 +941,8 @@ header .main-navigation nav .navbar-nav .nav-link{
 
 .swiper-slide img {
     width: 100%;
+    background-size: cover;
+    height: 800px;
 }
 
 .swiper-slide {
@@ -1660,7 +1662,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     position:relative;
     text-align:center;
     padding: 200px 0 150px 0;
-    background:url("../../singlepage/images/domba.jpeg");
+    background:url("../../singlepage/images/banner-pdp.png");
     background-size: cover;
     background-position: center center;
 }

@@ -6,17 +6,17 @@
         <div class="swiper-wrapper">
             <!-- First Slide -->
             <div class="swiper-slide">
-                <div class="bg-overlay bg-black opacity-6"></div>
-                <img src="{{ asset('templates/singlepage/images/domba.jpeg')}}" alt="slider">
+                <div class="bg-overlay bg-black opacity-2"></div>
+                <img src="{{ asset('templates/singlepage/images/banner-pdp.png')}}" alt="slider">
                 @foreach ($banner as $bn)
                 <div class="container slider-text">
                     <div class="row">
-                        <div class="col-0 col-md-6 col-sm-0 col-xs-0">
-                        </div>
                         <div class="col-12 col-md-6 col-sm-12 pt-5 text-center text-md-left mb-0 mb-md-5">
                             <h1 class="main-font slider-heading">{!!$bn->judul!!} <span class="d-block">{!!$bn->sub_judul1!!}</span></h1>
                             <p class="alt-font slider-para py-2">{!!$bn->sub_judul2!!}</p>
                             <a href="{!!$bn->link!!}" class="scroll btn button btn-medium btn-rounded btn-white mb-5">{!!$bn->tombol!!}</a>
+                        </div>
+                        <div class="col-0 col-md-6 col-sm-0 col-xs-0">
                         </div>
                     </div>
                 </div>
@@ -43,8 +43,9 @@
                     @if (!@empty($member->welcome_note))
                     <h6 class="sub-title alt-font text-sec"> {{$member->welcome_note->judul}}</h6>
                     <h2 class="title main-font text-main my-4">{{$member->welcome_note->sub_judul}}</h2>
-                    <p class="paragraph alt-font text-sec">{!!$member->welcome_note->welcome_note!!}</p>
+                    <p class="paragraph alt-font text-sec">{!! Str::limit($member->welcome_note->welcome_note, 400, '...') !!}</p>
                     @endif
+                    <a class="btn btn-success" href="/about">Detail</a>
                 </div>
             </div>
         </div>
@@ -111,9 +112,9 @@
             <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <div class="heading-area d-inline-block">
                     <div class="mb-4"><img src="{{ asset('templates/singlepage/images/about-border.png')}}" alt="About-line"></div>
-                    <h6 class="sub-title alt-font text-sec">Top Domba</h6>
-                    <h2 class="title main-font text-main my-4">Galeri Domba Garut</h2>
-                    <p class="paragraph alt-font text-sec">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy.  Lorem Ipsum has been the industry’s standard dummy.</p>
+                    <h6 class="sub-title alt-font text-sec">Photo Domba</h6>
+                    <h2 class="title main-font text-main my-4">Galeri Domba Presiden</h2>
+
                 </div>
             </div>
         </div>
@@ -146,9 +147,9 @@
             <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <div class="heading-area d-inline-block">
                     <div class="mb-4"><img src="{{ asset('templates/singlepage/images/about-border.png')}}" alt="About-line"></div>
-                    <h6 class="sub-title alt-font text-sec">Top Domba</h6>
-                    <h2 class="title main-font text-main my-4">Galeri Domba Garut</h2>
-                    <p class="paragraph alt-font text-sec">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy.  Lorem Ipsum has been the industry’s standard dummy.</p>
+                    <h6 class="sub-title alt-font text-sec">Video Domba</h6>
+                    <h2 class="title main-font text-main my-4">Galeri Domba Presiden</h2>
+
                 </div>
             </div>
         </div>

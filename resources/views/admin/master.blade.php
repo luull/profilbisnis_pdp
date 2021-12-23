@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>@yield('title')</title>
+  <title>ADMIN PDP</title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="{{ asset('templates/admin/assets/css/app.min.css')}}">
   <!-- Template CSS -->
@@ -13,8 +13,7 @@
   
   <!-- Custom style CSS -->
   <link rel="stylesheet" href="{{ asset('templates/admin/assets/css/custom.css')}}">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-   
+  <link href="{{ asset('favicon.ico')}}" rel="icon">
     @yield('style')
     @yield('script_atas')
 

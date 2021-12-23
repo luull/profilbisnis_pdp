@@ -44,6 +44,7 @@ Route::get('/member', 'frontend\HomeController@member');
 Route::get('/city/find/{id}', 'admin\profileController@city_list');
 Route::get('/subdistrict/find/{id}', 'admin\profileController@subdistrict_list');
 Route::get('/bisnis', 'bisnisController@index');
+Route::get('/about', 'aboutController@index');
 Route::get('/produk', 'produkController@index')->name('findproduk');
 Route::get('/profil', 'profilController@index');
 Route::get('/foto', 'fotoController@index');

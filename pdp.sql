@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 23, 2021 at 05:56 AM
+-- Generation Time: Dec 23, 2021 at 06:34 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -112,7 +112,7 @@ CREATE TABLE `app_setting` (
 --
 
 INSERT INTO `app_setting` (`id`, `app_name`, `app_url`, `app_domain`, `poweredby`, `copyright`, `company_name`, `url_join`, `url_import`, `text_join`, `themes_default`, `card_default`, `city_default`, `province_default`, `subdistrict`, `moto`, `job`, `job_title`, `about_web`) VALUES
-(1, 'PDP', 'https://kmm.com', 'pdp.com', 'PDP', 'PDP', 'PDP', 'https://pdp.com/registrasi', 'https://shadnetwork.com/back-office/import_profilmember.php', 'Jika Anda tertarik dengan bisnis SNW, silahkan klik icon \"Daftar\" untuk langsung melakukan pendaftaran, atau klik icon \"Hubungi kami\" untuk informasi detil lainnya.', 17, 25, 153, 6, 2104, 'Hidup Mulia Atau Mati Syahid', 'Mitraniaga SNW', 'Mitraniaga', 'Web ini merupakan wadah untuk memperkenalkan diri saya dan bisnis yang saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.');
+(1, 'PDP', 'https://kmm.com', 'pdp.com', 'PDP', 'PDP', 'PDP', 'https://pdp.com/registrasi', 'https://shadnetwork.com/back-office/import_profilmember.php', 'Jika Anda tertarik dengan bisnis SNW, silahkan klik icon \"Daftar\" untuk langsung melakukan pendaftaran, atau klik icon \"Hubungi kami\" untuk informasi detil lainnya.', 17, 25, 153, 6, 2104, 'Hidup Mulia Atau Mati Syahid', 'Mitraniaga SNW', 'Mitraniaga', 'Domba Presiden Farm is a product\nfrom PT HESFAST HEXA\nINDOGLOBAL which is located at\nDesa Nyalindung, Cisewu,\nSouth Garut, West Java. ');
 
 -- --------------------------------------------------------
 
@@ -3567,7 +3567,25 @@ INSERT INTO `event_log_member` (`id`, `member_id`, `path`, `refferal`, `descript
 (1667, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 22:11:31'),
 (1668, 3, 'http://127.0.0.1:8000/admin/banner', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 22:11:38'),
 (1669, 3, 'http://127.0.0.1:8000/admin/banner', 'http://127.0.0.1:8000/admin/banner', '', '127.0.0.1', '2021-12-22 22:11:58'),
-(1670, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/banner', '', '127.0.0.1', '2021-12-22 22:12:02');
+(1670, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/banner', '', '127.0.0.1', '2021-12-22 22:12:02'),
+(1671, 3, 'http://127.0.0.1:8000/dashboard', 'http://127.0.0.1:8000/c-panel', '', '127.0.0.1', '2021-12-23 23:08:24'),
+(1672, 3, 'http://127.0.0.1:8000/logout', 'http://127.0.0.1:8000/dashboard', 'Username pdp', '127.0.0.1', '2021-12-23 23:08:40'),
+(1673, 3, 'http://127.0.0.1:8000/dashboard', 'http://127.0.0.1:8000/c-panel', '', '127.0.0.1', '2021-12-23 23:08:54'),
+(1674, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/dashboard', '', '127.0.0.1', '2021-12-23 23:09:06'),
+(1675, 3, 'http://127.0.0.1:8000/admin/welcome_note/update', 'http://127.0.0.1:8000/admin/welcome_note', 'Update Data Welcome Note, ID Member 3', '127.0.0.1', '2021-12-23 23:11:07'),
+(1676, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-23 23:11:07'),
+(1677, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-23 23:32:18'),
+(1678, 3, 'http://127.0.0.1:8000/admin/welcome_note/update', 'http://127.0.0.1:8000/admin/welcome_note', 'Update Data Welcome Note, ID Member 3', '127.0.0.1', '2021-12-24 00:24:34'),
+(1679, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-24 00:24:34'),
+(1680, 3, 'http://127.0.0.1:8000/admin/welcome_note/update', 'http://127.0.0.1:8000/admin/welcome_note', 'Update Data Welcome Note, ID Member 3', '127.0.0.1', '2021-12-24 00:25:07'),
+(1681, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-24 00:25:07'),
+(1682, 3, 'http://127.0.0.1:8000/admin/welcome_note/update', 'http://127.0.0.1:8000/admin/welcome_note', 'Update Data Welcome Note, ID Member 3', '127.0.0.1', '2021-12-24 00:25:17'),
+(1683, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-24 00:25:17'),
+(1684, 3, 'http://127.0.0.1:8000/admin/welcome_note/update', 'http://127.0.0.1:8000/admin/welcome_note', 'Update Data Welcome Note, ID Member 3', '127.0.0.1', '2021-12-24 00:25:38'),
+(1685, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-24 00:25:38'),
+(1686, 3, 'http://127.0.0.1:8000/admin/welcome_note/update', 'http://127.0.0.1:8000/admin/welcome_note', 'Update Data Welcome Note, ID Member 3', '127.0.0.1', '2021-12-24 00:25:54'),
+(1687, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-24 00:25:54'),
+(1688, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-24 00:33:51');
 
 -- --------------------------------------------------------
 
@@ -3858,7 +3876,7 @@ CREATE TABLE `member` (
 --
 
 INSERT INTO `member` (`id`, `username`, `password`, `level`, `member_id`, `sponsor`, `nama`, `ktp`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `propinsi`, `negara`, `kd_pos`, `email`, `telp`, `hp`, `wa`, `ig`, `fb`, `twitter`, `tube`, `website`, `map`, `latitude`, `longitude`, `tentang_web`, `moto`, `themes_id`, `kartu_nama_id`, `foto`, `perusahaan`, `kategori_pekerjaan`, `sub_kategori_pekerjaan`, `pekerjaan`, `jabatan`, `logo`, `logo_kecil`, `tgl_expired`, `last_login`, `ip_login`, `tgl_daftar`, `tgl_input`, `petugas_input`, `tgl_update`, `petugas_update`, `hits`) VALUES
-(3, 'pdp', '$2y$10$O6skXSE.zEZr8S9AUMqSVeseryQdRNgeF4OAn896UuRBHPJtQCh/u', 1, '10101010', NULL, 'PDP', '1212121212121', 'Perum Kota Serang Baru Blok E-22 No 5', 'Sukaragam', 1725, 126, 9, 'Indonesia', '17330', 'pdp@gmail.com', NULL, '087882339006', '+6287882339006', NULL, 'pdp', NULL, 'pdp', NULL, NULL, NULL, NULL, 'Web ini merupakan wadah  untuk memperkenalkan diri saya dan bisnis yang  saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.', NULL, 12, 25, 'images/no-pic.jpg', 'Solusi-IT', 9, 21, 'Praktisi IT', 'Direktur', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-12-21 20:09:56', 3, 894);
+(3, 'pdp', '$2y$10$O6skXSE.zEZr8S9AUMqSVeseryQdRNgeF4OAn896UuRBHPJtQCh/u', 1, '10101010', NULL, 'PDP', '1212121212121', 'Perum Kota Serang Baru Blok E-22 No 5', 'Sukaragam', 1725, 126, 9, 'Indonesia', '17330', 'pdp@gmail.com', NULL, '087882339006', '+6287882339006', NULL, 'pdp', NULL, 'pdp', NULL, NULL, NULL, NULL, 'Web ini merupakan wadah  untuk memperkenalkan diri saya dan bisnis yang  saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.', NULL, 12, 25, 'images/no-pic.jpg', 'Solusi-IT', 9, 21, 'Praktisi IT', 'Direktur', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-12-21 20:09:56', 3, 933);
 
 -- --------------------------------------------------------
 
@@ -12627,7 +12645,64 @@ INSERT INTO `page_traffic_member` (`id`, `member_id`, `path`, `refferal`, `ip`, 
 (8674, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:05:03'),
 (8675, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:05:14'),
 (8676, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:06:07'),
-(8677, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:10:00');
+(8677, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:10:00'),
+(8678, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/dashboard', '127.0.0.1', '2021-12-23 23:08:40'),
+(8679, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-23 23:11:12'),
+(8680, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-23 23:21:20'),
+(8681, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-23 23:21:23'),
+(8682, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-23 23:21:50'),
+(8683, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-23 23:22:16'),
+(8684, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-23 23:22:34'),
+(8685, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-23 23:23:06'),
+(8686, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-23 23:24:09'),
+(8687, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:24:13'),
+(8688, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:24:37'),
+(8689, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:24:47'),
+(8690, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-23 23:25:30'),
+(8691, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-23 23:47:56'),
+(8692, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:48:00'),
+(8693, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:48:17'),
+(8694, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:49:02'),
+(8695, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:49:28'),
+(8696, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:49:36'),
+(8697, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:49:45'),
+(8698, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:50:00'),
+(8699, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:51:38'),
+(8700, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:52:08'),
+(8701, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:52:15'),
+(8702, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:52:57'),
+(8703, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:56:34'),
+(8704, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:58:54'),
+(8705, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-23 23:59:24'),
+(8706, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:00:31'),
+(8707, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:10:45'),
+(8708, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:12:24'),
+(8709, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:16:41'),
+(8710, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:24:37'),
+(8711, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:24:40'),
+(8712, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:25:09'),
+(8713, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:25:22'),
+(8714, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:25:40'),
+(8715, 3, 'http://127.0.0.1:8000/about', NULL, '127.0.0.1', '2021-12-24 00:25:43'),
+(8716, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-24 00:26:12'),
+(8717, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:26:15'),
+(8718, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:26:21'),
+(8719, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-24 00:27:17'),
+(8720, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:27:22'),
+(8721, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:27:56'),
+(8722, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:28:04'),
+(8723, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:28:19'),
+(8724, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:28:34'),
+(8725, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:29:15'),
+(8726, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:29:23'),
+(8727, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:30:19'),
+(8728, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:30:52'),
+(8729, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:31:05'),
+(8730, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:31:15'),
+(8731, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:31:26'),
+(8732, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:31:50'),
+(8733, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:31:58'),
+(8734, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:33:27');
 
 -- --------------------------------------------------------
 
@@ -20099,16 +20174,7 @@ CREATE TABLE `themes` (
 --
 
 INSERT INTO `themes` (`id`, `name`, `picture`, `template`, `updated`, `user_id`) VALUES
-(12, 'Singlepage', NULL, 'singlepage', '2021-09-22 10:15:31', 70),
-(13, 'Template 2', NULL, '2_templates', '2021-09-22 10:15:45', 70),
-(14, 'Template 3', NULL, '3_templates', '2021-09-22 10:15:57', 70),
-(15, 'Template 4', NULL, '4_templates', '2021-09-22 10:16:13', 70),
-(16, 'MysuperBoss 5', NULL, '5_mysuperboss', '2021-10-29 05:50:21', 70),
-(17, 'MysuperBoss 6', NULL, '6_mysuperboss', '2021-10-29 05:59:17', 70),
-(18, 'MysuperBoss 7', NULL, '7_mysuperboss', '2021-10-29 06:26:36', 70),
-(20, 'MysuperBoss 8', NULL, '8_mysuperboss', '2021-10-29 07:15:58', 70),
-(21, 'MysuperBoss 9', NULL, '9_mysuperboss', '2021-10-29 07:16:14', 80),
-(22, 'MysuperBoss 10', NULL, '10_mysuperboss', '2021-10-29 07:16:34', 70);
+(12, 'Singlepage', NULL, 'singlepage', '2021-09-22 10:15:31', 70);
 
 -- --------------------------------------------------------
 
@@ -20208,7 +20274,7 @@ CREATE TABLE `welcome_note` (
 --
 
 INSERT INTO `welcome_note` (`id`, `member_id`, `sub_judul`, `judul`, `welcome_note`, `created_at`, `update_at`) VALUES
-(2, 3, 'Domba Presiden', 'About', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', '2021-12-21 03:13:01', '2021-12-21 03:13:01');
+(8, 3, 'Domba Presiden', 'About', '<p>Domba Presiden Farm is a product from PT HESFAST HEXA INDOGLOBAL which is located at Desa Nyalindung, Cisewu, South Garut, West Java</p>\r\n\r\n<p>Established since 2020, Domba Presiden is a Modern Farm specialized in sheep fattening and the one and only farm in Indonesia using digital application for running day to day operational farm with high commitment for clean environment and product.</p>\r\n\r\n<p><strong>THE FARM</strong></p>\r\n\r\n<p>Domba Presiden farm is located in 3000 m&sup2; land area which surrounded by hills with spectacular view of South Garut.</p>\r\n\r\n<p>Average temperature at day would be around 24-29&deg;C and at night around 18-22&deg;C, this condition makes Domba Presiden is the best place for breeding and fattening Priangan sheeps</p>\r\n\r\n<p>Current population of sheeps about 700 heads and the capacity of farm approximately reaches until 1500 heads and can be extended to 3000 heads capacity.</p>\r\n\r\n<p>The farm also produce own product of sheep feed which is proven for the best formulation for fattening sheep in the short period.</p>\r\n\r\n<p><strong>MARKET DEMAND</strong></p>\r\n\r\n<p><em>&ldquo;Market for fresh sheep meats are very wide and every year the market is always grow. The demands always more than supplies.&rdquo;</em></p>\r\n\r\n<ul>\r\n	<li>Sheep meats start to replace the interest of goat meats in Indonesia. In some areas like West Java, sheep meats are even more likeable than goat meats for consumption. Thus, the price becomes better.</li>\r\n	<li>A lot of &rsquo;warung sate&rsquo; pops up in the city either traditional uor modern serving. This is one of the reason why demands always escalates every year.</li>\r\n	<li>Our neighbor country like Brunei, Malaysia and Singapore have high demand also and Indonesia exported several times to them but stopped because it interfere the fulfillment of meat needs in Indonesia.</li>\r\n</ul>\r\n\r\n<p><strong>WHY INVEST IN DOMBA PRESIDEN?</strong></p>\r\n\r\n<ul>\r\n	<li>We offer investor a fattening sheep business, we sell you sheep to be fattening not like other similar investment businesses which actually sell a land and attach some sheeps there</li>\r\n	<li>The farm is already running and sold thousands of sheep until now with market spread across West Java, Central Java and Yogyakarta.</li>\r\n	<li>Digital application makes easier for you to monitor your investment in a real time. You can see the growth of every single sheep you have and if that is not enough you can go for site visit to our farm anytime.</li>\r\n	<li>We will send you the calculation of your investment in detail before you join and it will be clear before we start</li>\r\n	<li>The official agreement will be made and sign in front of a notary.</li>\r\n	<li>Every sell will be refunded to investor in full and you can come&nbsp;back with initial investment or even larger to growth with us</li>\r\n	<li>Harvest will be done every 2 months approximately with return around 5% to 6%</li>\r\n	<li>No need to worry how to search &#39;Domba Bakalan &#39; to be fattened, how to feed them, how to take care of them, how to sell them.</li>\r\n	<li>We will do everything for you, you just need monitor it by digital application.</li>\r\n</ul>\r\n\r\n<p><strong>INVESTMENT CALCULATION</strong></p>\r\n\r\n<p><strong>Investment Start</strong></p>\r\n\r\n<p>You only pay for &#39;Domba Bakalan&#39; with minimum purchase start from approximately IDR 50 millions. &#39;Domba Bakalan&#39; specification are age between 4-8 months and weight between 14-20 kg. The nominal of your payment will calculated as the market price living &#39;Domba bakalan&#39; per kilogram times total weight of &#39;Domba bakalan&#39;.</p>\r\n\r\n<p><strong>Harvest</strong></p>\r\n\r\n<p>Fattening process time is approximately 2 months and Domba Presiden have some loyal customers who are already know the quality of &#39;Karkas&#39; of our sheeps. Transaction can be held in our farm or at their farm</p>\r\n\r\n<p><strong>PROFIT AND COST</strong></p>\r\n\r\n<p>Like other trading, profit will be determined as Sell minus Cost. There are some costs which are</p>\r\n\r\n<ul>\r\n	<li><strong>Feeding Cost</strong> : Everyday your investment will be feed minimum of 10% of their weigh with our quality feed. Feeding will be 3 times a day (breakfast, lunch and dinner).</li>\r\n	<li><strong>Farm Rent Cost </strong>: No need to build a new farm, you only need to rent.</li>\r\n	<li><strong>Employee Cost</strong> : No need to pay salary for workers, we only charge you the cost of taking care your investment per one living sheep.</li>\r\n	<li><strong>Vitamin and Supplement Cost</strong> : To strengthen your investments, you need some vitamins and supplements (Biodin, Vit B Complex, Obat Cacing) 3 x during fattening.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>', '2021-12-23 17:25:54', '2021-12-23 17:25:54');
 
 -- --------------------------------------------------------
 
@@ -20776,7 +20842,7 @@ ALTER TABLE `event_log`
 -- AUTO_INCREMENT for table `event_log_member`
 --
 ALTER TABLE `event_log_member`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1671;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1689;
 
 --
 -- AUTO_INCREMENT for table `gallery_photo`
@@ -20836,7 +20902,7 @@ ALTER TABLE `member`
 -- AUTO_INCREMENT for table `page_traffic_member`
 --
 ALTER TABLE `page_traffic_member`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8678;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8735;
 
 --
 -- AUTO_INCREMENT for table `penarikan_wallet`
@@ -20908,7 +20974,7 @@ ALTER TABLE `web_templates`
 -- AUTO_INCREMENT for table `welcome_note`
 --
 ALTER TABLE `welcome_note`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `youtube`
