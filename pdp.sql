@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 29, 2021 at 07:28 AM
+-- Generation Time: Dec 23, 2021 at 05:56 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kmm`
+-- Database: `pdp`
 --
 
 -- --------------------------------------------------------
@@ -112,7 +112,7 @@ CREATE TABLE `app_setting` (
 --
 
 INSERT INTO `app_setting` (`id`, `app_name`, `app_url`, `app_domain`, `poweredby`, `copyright`, `company_name`, `url_join`, `url_import`, `text_join`, `themes_default`, `card_default`, `city_default`, `province_default`, `subdistrict`, `moto`, `job`, `job_title`, `about_web`) VALUES
-(1, 'KMM', 'https://kmm.com', 'kmm.com', 'KMM', 'KMM', 'KMM', 'https://kmm.com/registrasi', 'https://shadnetwork.com/back-office/import_profilmember.php', 'Jika Anda tertarik dengan bisnis SNW, silahkan klik icon \"Daftar\" untuk langsung melakukan pendaftaran, atau klik icon \"Hubungi kami\" untuk informasi detil lainnya.', 17, 25, 153, 6, 2104, 'Hidup Mulia Atau Mati Syahid', 'Mitraniaga SNW', 'Mitraniaga', 'Web ini merupakan wadah untuk memperkenalkan diri saya dan bisnis yang saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.');
+(1, 'PDP', 'https://kmm.com', 'pdp.com', 'PDP', 'PDP', 'PDP', 'https://pdp.com/registrasi', 'https://shadnetwork.com/back-office/import_profilmember.php', 'Jika Anda tertarik dengan bisnis SNW, silahkan klik icon \"Daftar\" untuk langsung melakukan pendaftaran, atau klik icon \"Hubungi kami\" untuk informasi detil lainnya.', 17, 25, 153, 6, 2104, 'Hidup Mulia Atau Mati Syahid', 'Mitraniaga SNW', 'Mitraniaga', 'Web ini merupakan wadah untuk memperkenalkan diri saya dan bisnis yang saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.');
 
 -- --------------------------------------------------------
 
@@ -190,7 +190,7 @@ CREATE TABLE `banner` (
 INSERT INTO `banner` (`id`, `member_id`, `judul`, `sub_judul1`, `sub_judul2`, `tombol`, `link`, `gambar`, `background`, `created_at`, `updated_at`) VALUES
 (2, 10, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah?', 'Ya Insya Allah BISA, sukses hanya dari rumah dengan biaya relatif kecil', 'Mulai', '#bisnis', '10/images/banner_1_SP.jpeg', 'templates/agico/images/background/banner.png', '2021-11-16 04:18:27', '2021-11-15 21:18:27'),
 (3, 1, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#about', '8/images/plan.svg', '', '2021-07-27 02:26:17', '2021-07-26 19:26:17'),
-(4, 3, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Let Start', '#bisnis', '3/images/home-office-336378_1280-e1585765560982.jpg', NULL, '2021-08-14 13:36:54', '2021-08-14 06:36:54'),
+(4, 3, 'Domba Presiden', 'Peternakan Domba Terbaik', 'Peternakan Domba yang dirawat dengan baik dan berkualitas', 'Let Start', '#about', '3/images/home-office-336378_1280-e1585765560982.jpg', NULL, '2021-12-21 03:05:20', '2021-12-20 20:05:20'),
 (6, 8, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah?', 'Ya Insya Allah BISA, sukses hanya dari rumah dengan biaya relatif kecil', 'Mulai', '#about', '8/images/men-success-laptop-relieve-work-from-home-computer-great_10045-646-removebg-preview.png', NULL, '2021-11-16 04:12:21', '2021-11-15 21:12:21'),
 (7, 11, 'Sukses Anda, Kebahagiaan Saya', 'Apa Bisa Sukses Hanya Dari Rumah?', 'Ya Insya Allah BISA, sukses hanya dari rumah dengan biaya relatif kecil', 'Mulai', '#about', '11/images/home-office-336378_1280-e1585765560982.jpg', '', '2021-11-16 04:14:08', '2021-11-15 21:14:08'),
 (8, 12, 'SUKSES ANDA, KEBAHAGIAN SAYA', 'Berkarya bersama untuk meraih sukses yang sempurna', 'bisa dilakukan dimana saja, kapan saja', 'Mulai', '#bisnis', '12/images/266-2662905_the-keys-to-our-success-success-clipart.png', '', '2021-08-28 09:29:51', '2021-08-28 02:29:51'),
@@ -3486,7 +3486,88 @@ INSERT INTO `event_log_member` (`id`, `member_id`, `path`, `refferal`, `descript
 (1586, 25, 'https://mysuperboss.com/dashboard', 'https://mysuperboss.com/c-panel', '', '180.241.45.215', '2021-11-19 15:13:11'),
 (1587, 25, 'https://mysuperboss.com/dashboard', 'https://mysuperboss.com/c-panel', '', '180.241.45.215', '2021-11-19 15:16:11'),
 (1588, 3, 'https://mysuperboss.com/dashboard', 'https://mysuperboss.com/c-panel', '', '180.252.139.123', '2021-11-19 17:04:56'),
-(1589, 3, 'https://mysuperboss.com/dashboard', 'https://mysuperboss.com/c-panel', '', '180.252.139.123', '2021-11-19 17:08:06');
+(1589, 3, 'https://mysuperboss.com/dashboard', 'https://mysuperboss.com/c-panel', '', '180.252.139.123', '2021-11-19 17:08:06'),
+(1590, 3, 'http://127.0.0.1:8000/dashboard', 'http://127.0.0.1:8000/c-panel', '', '127.0.0.1', '2021-12-21 10:02:12'),
+(1591, 3, 'http://127.0.0.1:8000/admin/banner', 'http://127.0.0.1:8000/dashboard', '', '127.0.0.1', '2021-12-21 10:02:20'),
+(1592, 3, 'http://127.0.0.1:8000/admin/banner/update', 'http://127.0.0.1:8000/admin/banner', 'Update data Banner ID Member 3 dan ID data Banner 4', '127.0.0.1', '2021-12-21 10:05:20'),
+(1593, 3, 'http://127.0.0.1:8000/admin/banner', 'http://127.0.0.1:8000/admin/banner', '', '127.0.0.1', '2021-12-21 10:05:20'),
+(1594, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/banner', '', '127.0.0.1', '2021-12-21 10:09:17'),
+(1595, 3, 'http://127.0.0.1:8000/admin/welcome_note/update', 'http://127.0.0.1:8000/admin/welcome_note', 'Update Data Welcome Note, ID Member 3', '127.0.0.1', '2021-12-21 10:09:51'),
+(1596, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-21 10:09:51'),
+(1597, 3, 'http://127.0.0.1:8000/admin/welcome_note/update', 'http://127.0.0.1:8000/admin/welcome_note', 'Update Data Welcome Note, ID Member 3', '127.0.0.1', '2021-12-21 10:13:01'),
+(1598, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-21 10:13:01'),
+(1599, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-21 10:14:11'),
+(1600, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-21 10:17:41'),
+(1601, 3, 'http://127.0.0.1:8000/admin/produk/save', 'http://127.0.0.1:8000/admin/produk', 'Input data Produk, ID Member 3 Nama Produk Domba Tanduk', '127.0.0.1', '2021-12-21 10:18:56'),
+(1602, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/admin/produk', '', '127.0.0.1', '2021-12-21 10:18:56'),
+(1603, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/admin/produk', '', '127.0.0.1', '2021-12-21 10:30:40'),
+(1604, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/admin/produk', '', '127.0.0.1', '2021-12-21 10:31:33'),
+(1605, 3, 'http://127.0.0.1:8000/admin/produk/update', 'http://127.0.0.1:8000/admin/produk', 'Update data Produk, ID Member 3 dan ID Produk 13', '127.0.0.1', '2021-12-21 10:31:42'),
+(1606, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/admin/produk', '', '127.0.0.1', '2021-12-21 10:31:42'),
+(1607, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/testimoni', '', '127.0.0.1', '2021-12-21 10:52:44'),
+(1608, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:54:18'),
+(1609, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:54:19'),
+(1610, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:54:29'),
+(1611, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:54:29'),
+(1612, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:54:59'),
+(1613, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:55:00'),
+(1614, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:55:53'),
+(1615, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:55:53'),
+(1616, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:56:02'),
+(1617, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:56:03'),
+(1618, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:57:27'),
+(1619, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:57:27'),
+(1620, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:57:36'),
+(1621, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:57:37'),
+(1622, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:57:47'),
+(1623, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:57:48'),
+(1624, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:57:56'),
+(1625, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:57:57'),
+(1626, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:57:57'),
+(1627, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:57:57'),
+(1628, 3, 'http://127.0.0.1:8000/admin/photo/delete/30', 'http://127.0.0.1:8000/admin/photo', 'Delete Gallery Photo, ID Member 3 dan ID Photo 30', '127.0.0.1', '2021-12-21 10:58:04'),
+(1629, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:58:04'),
+(1630, 3, 'http://127.0.0.1:8000/admin/photo/save', 'http://127.0.0.1:8000/admin/photo', 'Input Gallery Photo, ID Member 3', '127.0.0.1', '2021-12-21 10:58:19'),
+(1631, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:58:19'),
+(1632, 3, 'http://127.0.0.1:8000/admin/photo/delete/31', 'http://127.0.0.1:8000/admin/photo', 'Delete Gallery Photo, ID Member 3 dan ID Photo 31', '127.0.0.1', '2021-12-21 10:58:47'),
+(1633, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:58:48'),
+(1634, 3, 'http://127.0.0.1:8000/admin/photo/delete/24', 'http://127.0.0.1:8000/admin/photo', 'Delete Gallery Photo, ID Member 3 dan ID Photo 24', '127.0.0.1', '2021-12-21 10:59:20'),
+(1635, 3, 'http://127.0.0.1:8000/admin/photo', 'http://127.0.0.1:8000/admin/photo', '', '127.0.0.1', '2021-12-21 10:59:20'),
+(1636, 3, 'http://127.0.0.1:8000/dashboard', 'http://127.0.0.1:8000/c-panel', '', '127.0.0.1', '2021-12-21 17:27:05'),
+(1637, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/video', '', '127.0.0.1', '2021-12-21 17:33:29'),
+(1638, 3, 'http://127.0.0.1:8000/dashboard', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-21 17:34:29'),
+(1639, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/dashboard', '', '127.0.0.1', '2021-12-21 17:34:40'),
+(1640, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/dashboard', '', '127.0.0.1', '2021-12-21 17:35:13'),
+(1641, 3, 'http://127.0.0.1:8000/dashboard', 'http://127.0.0.1:8000/c-panel', '', '127.0.0.1', '2021-12-22 19:00:57'),
+(1642, 3, 'http://127.0.0.1:8000/admin/banner', 'http://127.0.0.1:8000/dashboard', '', '127.0.0.1', '2021-12-22 19:01:03'),
+(1643, 3, 'http://127.0.0.1:8000/logout', 'http://127.0.0.1:8000/admin/banner', 'Username pdp', '127.0.0.1', '2021-12-22 19:01:31'),
+(1644, 3, 'http://127.0.0.1:8000/dashboard', 'http://127.0.0.1:8000/c-panel', '', '127.0.0.1', '2021-12-22 19:01:56'),
+(1645, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/dashboard', '', '127.0.0.1', '2021-12-22 19:02:02'),
+(1646, 3, 'http://127.0.0.1:8000/admin/produk/save', 'http://127.0.0.1:8000/admin/produk', 'Input data Produk, ID Member 3 Nama Produk Domba Sumarecon', '127.0.0.1', '2021-12-22 19:02:33'),
+(1647, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/admin/produk', '', '127.0.0.1', '2021-12-22 19:02:34'),
+(1648, 3, 'http://127.0.0.1:8000/admin/produk', NULL, '', '127.0.0.1', '2021-12-22 21:46:49'),
+(1649, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/produk', '', '127.0.0.1', '2021-12-22 21:46:52'),
+(1650, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', 'Update Data Profil, ID Member 3 Nama Member PDP', '127.0.0.1', '2021-12-22 21:47:14'),
+(1651, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 21:47:14'),
+(1652, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 21:49:51'),
+(1653, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 21:50:43'),
+(1654, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 21:51:47'),
+(1655, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 21:53:17'),
+(1656, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 21:53:27'),
+(1657, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 21:53:34'),
+(1658, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/wa-templates', '', '127.0.0.1', '2021-12-22 22:07:56'),
+(1659, 3, 'http://127.0.0.1:8000/admin/banner', 'http://127.0.0.1:8000/admin/welcome_note', '', '127.0.0.1', '2021-12-22 22:08:00'),
+(1660, 3, 'http://127.0.0.1:8000/admin/produk', 'http://127.0.0.1:8000/admin/video', '', '127.0.0.1', '2021-12-22 22:08:14'),
+(1661, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/produk', '', '127.0.0.1', '2021-12-22 22:08:19'),
+(1662, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/produk', '', '127.0.0.1', '2021-12-22 22:09:09'),
+(1663, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', 'Update Data Profil, ID Member 3 Nama Member PDP', '127.0.0.1', '2021-12-22 22:09:39'),
+(1664, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 22:09:39'),
+(1665, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', 'Update Data Profil, ID Member 3 Nama Member PDP', '127.0.0.1', '2021-12-22 22:09:56'),
+(1666, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 22:09:57'),
+(1667, 3, 'http://127.0.0.1:8000/admin/profile', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 22:11:31'),
+(1668, 3, 'http://127.0.0.1:8000/admin/banner', 'http://127.0.0.1:8000/admin/profile', '', '127.0.0.1', '2021-12-22 22:11:38'),
+(1669, 3, 'http://127.0.0.1:8000/admin/banner', 'http://127.0.0.1:8000/admin/banner', '', '127.0.0.1', '2021-12-22 22:11:58'),
+(1670, 3, 'http://127.0.0.1:8000/admin/welcome_note', 'http://127.0.0.1:8000/admin/banner', '', '127.0.0.1', '2021-12-22 22:12:02');
 
 -- --------------------------------------------------------
 
@@ -3511,26 +3592,14 @@ CREATE TABLE `gallery_photo` (
 --
 
 INSERT INTO `gallery_photo` (`id`, `member_id`, `katagori`, `keterangan`, `file_photo`, `dilihat`, `created_at`, `updated_at`, `petugas`) VALUES
-(1, 1, '', 'Saya dan Putri Saya', '1/photos/sita.jpg', 0, '2020-11-20 02:50:59', '2020-11-20 02:50:59', '0'),
-(2, 1, '', 'Leader Startup Bogor', '1/photos/foto3.jpg', 0, '2020-11-20 02:51:03', '2020-11-20 02:51:03', '0'),
-(3, 1, '', 'Bersama, Ibu, Anak dan Owner PT ASANTE', '1/photos/foto2.jpg', 0, '2020-11-20 02:51:10', '2020-11-20 02:51:10', '0'),
-(4, 1, NULL, 'Membagikan bantuan Bencana Banjir', '1/photos/foto1.jpg', 0, '2020-11-20 13:28:25', '2020-11-20 06:28:25', 'sita'),
-(5, 2, '', 'Foto 1', '2/photos/photo1.jpeg', 0, '2021-04-05 18:25:32', '2021-04-05 18:25:32', '0'),
-(6, 2, '', 'Foto 2', '2/photos/photo2.jpeg', 0, '2021-04-05 18:25:43', '2021-04-05 18:25:43', '0'),
-(7, 2, '', 'foto 3', '2/photos/photo3.jpeg', 0, '2021-04-05 18:25:46', '2021-04-05 18:25:46', '0'),
-(8, 2, '', 'foto 4', '2/photos/photo4.jpeg', 0, '2021-04-05 18:25:51', '2021-04-05 18:25:51', '0'),
-(9, 2, '', 'Foto 5', '2/photos/photo5.jpeg', 0, '2021-04-05 18:25:54', '2021-04-05 18:25:54', '0'),
-(10, 2, '', 'Foto 6', '2/photos/photo6.jpeg', 0, '2021-04-05 18:25:56', '2021-04-05 18:25:56', '0'),
-(11, 2, '', 'Foto 7', '2/photos/photo7.jpeg', 0, '2021-04-05 18:25:59', '2021-04-05 18:25:59', '0'),
-(12, 2, '', 'Foto 8', '2/photos/photo8.jpeg', 0, '2021-04-05 18:26:02', '2021-04-05 18:26:02', '0'),
-(13, 2, '', 'Foto 9', '2/photos/photo9.jpeg', 0, '2021-04-05 18:26:05', '2021-04-05 18:26:05', '0'),
-(14, 2, '', 'Foto 10', '2/photos/photo10.jpeg\r\n', 0, '2021-04-05 18:26:10', '2021-04-05 18:26:10', '0'),
-(15, 2, '', 'Foto 11', '2/photos/photo11.jpeg', 0, '2021-04-05 18:26:12', '2021-04-05 18:26:12', '0'),
-(16, 2, '', 'Foto 12', '2/photos/photo12.jpeg', 0, '2021-04-05 18:26:15', '2021-04-05 18:26:15', '0'),
-(17, 8, 'AMPM SUT06', 'AMPM SUT06, MEDAN, 1 JAN 2020', '8/photos/amp4e.jpg', 0, '2021-08-13 19:56:13', '2021-08-13 19:56:13', 'spangat'),
-(18, 8, 'AMPM SUT06', 'AMPM SUT06, MEDAN, 1 JAN 2020', '8/photos/amp5e.jpg', 0, '2021-08-13 19:56:27', '2021-08-13 19:56:27', 'spangat'),
-(19, 8, 'AMPM SUT06', 'AMPM SUT06, MEDAN, 1 JAN 2020', '8/photos/amp3.jpg', 0, '2021-08-13 19:56:43', '2021-08-13 19:56:43', 'spangat'),
-(20, 8, 'AMPM SUT06', 'AMPM SUT06, MEDAN, 1 JAN 2020', '8/photos/amp6e.jpg', 0, '2021-08-13 19:56:58', '2021-08-13 19:56:58', 'spangat');
+(21, 3, 'Domba', 'Domba Garut', '3/photos/domba2.png', 0, '2021-12-20 20:54:18', '2021-12-20 20:54:18', 'bayu'),
+(22, 3, 'Domba', 'Domba Garut', '3/photos/domba3.png', 0, '2021-12-20 20:54:29', '2021-12-20 20:54:29', 'bayu'),
+(23, 3, 'Domba', 'Domba Garut', '3/photos/domba.png', 0, '2021-12-20 20:54:59', '2021-12-20 20:54:59', 'bayu'),
+(25, 3, 'Domba', 'Domba Garut', '3/photos/domba5.jpeg', 0, '2021-12-20 20:56:02', '2021-12-20 20:56:02', 'bayu'),
+(26, 3, 'Domba', 'Domba Garut', '3/photos/domba6.jpeg', 0, '2021-12-20 20:57:27', '2021-12-20 20:57:27', 'bayu'),
+(27, 3, 'Domba', 'Domba Garut', '3/photos/domba7.jpeg', 0, '2021-12-20 20:57:36', '2021-12-20 20:57:36', 'bayu'),
+(28, 3, 'Domba', 'Domba Garut', '3/photos/domba8.jpeg', 0, '2021-12-20 20:57:47', '2021-12-20 20:57:47', 'bayu'),
+(29, 3, 'Domba', 'Domba Garut', '3/photos/domba9.jpeg', 0, '2021-12-20 20:57:56', '2021-12-20 20:57:56', 'bayu');
 
 -- --------------------------------------------------------
 
@@ -3789,15 +3858,7 @@ CREATE TABLE `member` (
 --
 
 INSERT INTO `member` (`id`, `username`, `password`, `level`, `member_id`, `sponsor`, `nama`, `ktp`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `propinsi`, `negara`, `kd_pos`, `email`, `telp`, `hp`, `wa`, `ig`, `fb`, `twitter`, `tube`, `website`, `map`, `latitude`, `longitude`, `tentang_web`, `moto`, `themes_id`, `kartu_nama_id`, `foto`, `perusahaan`, `kategori_pekerjaan`, `sub_kategori_pekerjaan`, `pekerjaan`, `jabatan`, `logo`, `logo_kecil`, `tgl_expired`, `last_login`, `ip_login`, `tgl_daftar`, `tgl_input`, `petugas_input`, `tgl_update`, `petugas_update`, `hits`) VALUES
-(3, 'bayu', '$2y$10$O6skXSE.zEZr8S9AUMqSVeseryQdRNgeF4OAn896UuRBHPJtQCh/u', 1, '10101010', NULL, 'Bayu Nugraha', '1212121212121', 'Perum Kota Serang Baru Blok E-22 No 5', 'Sukaragam', 740, 54, 9, 'Indonesia', '17330', 'bayunugraha.75@gmail.com', NULL, '087882339006', '+6287882339006', NULL, 'bayu', NULL, 'bayu', NULL, NULL, NULL, NULL, 'Web ini merupakan wadah  untuk memperkenalkan diri saya dan bisnis yang  saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.', 'Hidup Mulia Atau Mati Syahid', 15, 27, 'images/no-pic.jpg', 'Solusi-IT', 9, 21, 'Praktisi IT', 'Direktur', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-11-14 23:31:56', 3, 728),
-(8, 'spangat', '$2y$10$UEYo4if9wK.wKIk8QUsbpuxq2ruBe.YKMogLl6cGjUobKQq6TVnQC', 0, '9701026889', NULL, 'Sugianto Pangat', NULL, NULL, NULL, 3912, 278, 34, 'Indonesia', NULL, 'sugianto_06@ymail.com', NULL, '081375656923', '6281375656923', NULL, 'sugiantopangatsnw', '@sugiantopangat', 'UCO0u3cOMPUAr0kXdfmWj9Nw', 'www.shadnetwork.com/spangat/', NULL, NULL, NULL, 'Website ini merupakan wadah  untuk memperkenalkan diri saya dan bisnis yang  saya tekuni, semoga dengan adanya website ini bisa menjadi sarana untuk menjelaskan tentang bisnis saya kepada Anda.', 'Hidup Mulia Atau Mati Syahid', 12, 23, '8/photos/8.jpg', 'SNW (Shad Network)', 2, 21, 'Mitraniaga SNW', 'Prawira Utama', 'images/logo.png', 'images/logo-kecil.png', NULL, NULL, NULL, '2021-07-26 03:31:47', '2021-07-25 20:31:47', 70, '2021-11-16 18:31:11', 8, 1550),
-(10, 'supermitra', '$2y$10$w3E/CdyreLW5b0RL9AGN8.BEPArR90jNaZtbHoCZ4hN0H/u5ClCgi', 0, NULL, NULL, 'Supermitra', '12345678910', NULL, NULL, 2104, 153, 6, 'Indonesia', '16230', 'mitraniagasnw@gmail.com', '021-21798344', '085885331738', '6285885331738', 'bisnissyariahsnw', 'kampusahad.jakarta', 'day_nafy', 'UCO0u3cOMPUAr0kXdfmWj9Nw', 'https://www.shadnetwork.com', NULL, NULL, NULL, 'Distribusi PROduk HAlalan Thayyiban Indonesia (PROHATI) dengan strategi Network Marketing.', 'Bisnis Impian Sekses Anda', 12, 23, '10/photos/10.jpg', 'SNW', 2, 21, 'Mitraniaga', 'Mitraniaga', 'images/logo.png', 'images/logo-kecil.png', NULL, NULL, NULL, '2021-08-12 04:30:25', '2021-08-11 21:30:25', 75, '2021-11-18 20:28:22', 10, 517),
-(11, 'alif', '$2y$10$jT47Ar.0HACtX9If7IesGuGl6lXLTmwU0IytQg7ixQXukSJSWBhLS', 0, NULL, NULL, 'Alif Kaharuddin', NULL, NULL, NULL, 3587, 254, 28, 'Indonesia', NULL, 'mitraniaga@shadnetwork.com', NULL, '081342606133', '+6281342606133', NULL, NULL, NULL, NULL, 'www.shadnetwork.com/', NULL, NULL, NULL, 'Website ini merupakan wadah  untuk memperkenalkan diri saya dan bisnis yang  saya tekuni, semoga dengan adanya website ini bisa menjadi sarana untuk menjelaskan tentang bisnis saya kepada Anda.', 'Hidup Mulia Atau Mati Syahid', 12, 26, '11/photos/11.jpg', 'SNW (Shad Network)', 2, 21, 'Mitraniaga SNW', 'Prawira Kencana', 'images/logo.png', 'images/logo-kecil.png', NULL, NULL, NULL, '2021-08-14 01:11:59', '2021-08-13 18:11:59', 70, '2021-11-16 18:32:37', 80, 628),
-(12, 'irwan', '$2y$10$s50MUTKnYMlmCpriUBKmAeT6FlQZSWbaCKTTVuwta1bUgHxBY4qUO', 0, NULL, NULL, 'Irwan Sholeh', '3214512312450004', 'Jl. Swadaya Ujung RT 03/07', 'Tanah Baru', 1577, 115, 9, 'Indonesia', '16426', 'irwansholeh@shadnetwork.com', NULL, '08170740830', '08170740830', NULL, 'irwan sholeh albatawiy', NULL, 'ierlien family', NULL, 'https://www.google.co.id/maps/place/6%C2%B021\'53.8%22S+106%C2%B048\'21.8%22E/@-6.3651144,106.8058262,19.75z/data=!4m14!1m7!3m6!1s0x2e69eebcaf681b57:0xcc9f765ca6d7ccc5!2sJl.+Swadaya+Ujung,+Tanah+Baru,+Kecamatan+Beji,+Kota+Depok,+Jawa+Barat+16426', NULL, NULL, NULL, '\"Hidup Sehat Dengan Senyuman\"', 12, 27, '12/photos/12.jpg', 'PT Shad Global Indonesia', 9, 21, 'belakang layar', 'Komandan', 'images/logo.png', 'images/logo-kecil.png', NULL, NULL, NULL, '2021-08-16 03:50:17', '2021-08-15 20:50:17', 75, '2021-11-12 02:07:36', 12, 178),
-(16, 'bss', '$2y$10$p4H.x7D6W5F7HW44cWLshuO5HTn4Xp1wl5/j5LijlSHR3aIh0XP26', 0, NULL, NULL, 'Budi Susanto', NULL, NULL, NULL, 4099, 291, 29, 'Indonesia', NULL, 'bujel2008@gmail.com', NULL, '+62811911405', '+62811911405', NULL, NULL, NULL, NULL, 'www.shadnetwork.com', NULL, NULL, NULL, NULL, 'Jujur, Ikhlas, Bersyukur', 12, 23, '16/photos/16.jpeg', 'Shadnetwork', 2, 21, 'Network Builder', NULL, 'images/logo.png', 'images/logo-kecil.png', NULL, NULL, NULL, '2021-11-12 05:51:18', '2021-11-11 22:51:18', 80, '2021-11-12 18:31:36', 16, 74),
-(22, 'dayat', '$2y$10$8Usyc306aoX4AxcoLqVxDuFbFocD9cs3WJymxEdGNoRQIcIlC9m3y', 0, '0000000000', NULL, 'Nurhidayat', '32760520002760008', NULL, NULL, 1586, 115, 9, 'Indonesia', '16411', 'nurhidayat@shadnetwork.com', '-', '085885331738', '6285885331738', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Website ini merupakan sarana untuk memperkenalkan bisnis yang saya jalani saat ini. Semoga Anda menemukan manfaat dari apa yang saya sampaikan. Salam Sukses, Insya Allah BISA..', 'Nafiuun Lighairihi', 12, 23, '22/photos/22.jpg', 'SNW', 2, 21, 'Mitrakarya', 'Manajer', 'images/logo.png', 'images/logo-kecil.png', NULL, NULL, NULL, '2021-11-17 07:49:51', '2021-11-17 00:49:51', 75, NULL, NULL, 16),
-(23, 'Indanazulfa', '$2y$10$SzEOmZ31WZsJO5.8sMmRhutnm8Eof/dj3gSlVe1Z3K/HWeghqC7uO', 0, 'A012745356', NULL, 'IR.ZULFA', '1271135008680001', 'JL.T.LESTARI BLOK V GMNO.20/70', 'BESAR', 3916, 278, 34, 'Indonesia', '20251', 'mitraniaga@shadnetwork.com', '081376910556', '081376910556', '6281376910556', NULL, NULL, NULL, NULL, 'mysuperboss.com', NULL, 0, 0, NULL, 'Hidup Mulia Atau Mati Syahid', 12, 23, 'images/no-pic.jpg', 'Shadnetwork', 2, 21, 'Mitraniaga SNW', 'Mitraniaga', 'images/logo.png', 'images/logo-kecil.png', NULL, NULL, NULL, '2021-11-18 08:43:24', '2021-11-18 01:43:24', 75, '2021-11-19 00:27:38', 23, 52),
-(25, 'Suriamsyahsnw', '$2y$10$ADA8RE3LjUvolFKj.A63BuyX9JRmaL32.ENKvyLPXSIMzJqFHnLzS', 0, 'A122443793', NULL, 'SURIAMSYAH,S.PD.', '1219032011500002', 'PERG ALWASLIYAHJL.SYARIFUDIN', 'TJ.KUBAH', 214, 15, 34, 'Indonesia', '21256', 'mitraniaga@shadnetwork.com', '081370792639', '081370792639', '6281370792639', NULL, NULL, NULL, NULL, 'mysuperboss.com', NULL, 0, 0, NULL, 'Hidup Mulia Atau Mati Syahid', 12, 23, 'images/no-pic.jpg', 'Shadnetwork', 2, 21, 'Mitraniaga SNW', 'Mitraniaga', 'images/logo.png', 'images/logo-kecil.png', NULL, NULL, NULL, '2021-11-19 06:33:19', '2021-11-18 23:33:19', 75, '2021-11-19 00:26:00', 25, 14);
+(3, 'pdp', '$2y$10$O6skXSE.zEZr8S9AUMqSVeseryQdRNgeF4OAn896UuRBHPJtQCh/u', 1, '10101010', NULL, 'PDP', '1212121212121', 'Perum Kota Serang Baru Blok E-22 No 5', 'Sukaragam', 1725, 126, 9, 'Indonesia', '17330', 'pdp@gmail.com', NULL, '087882339006', '+6287882339006', NULL, 'pdp', NULL, 'pdp', NULL, NULL, NULL, NULL, 'Web ini merupakan wadah  untuk memperkenalkan diri saya dan bisnis yang  saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.', NULL, 12, 25, 'images/no-pic.jpg', 'Solusi-IT', 9, 21, 'Praktisi IT', 'Direktur', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-12-21 20:09:56', 3, 894);
 
 -- --------------------------------------------------------
 
@@ -12395,7 +12456,178 @@ INSERT INTO `page_traffic_member` (`id`, `member_id`, `path`, `refferal`, `ip`, 
 (8504, 3, 'http://127.0.0.1:8000/kartunama/bayu', '', '127.0.0.1', '2021-11-29 12:26:10'),
 (8505, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/kartunama/bayu', '127.0.0.1', '2021-11-29 13:20:58'),
 (8506, 3, 'http://127.0.0.1:8000/kartunama/bayu', '', '127.0.0.1', '2021-11-29 13:21:28'),
-(8507, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-11-29 13:28:03');
+(8507, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-11-29 13:28:03'),
+(8508, 3, 'http://127.0.0.1:8000/kartunama/bayu', 'http://127.0.0.1:8001/', '127.0.0.1', '2021-11-29 19:37:36'),
+(8509, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-11-29 23:52:54'),
+(8510, 3, 'http://127.0.0.1:8000/kartunama/bayu', 'http://127.0.0.1:8000/bayu', '127.0.0.1', '2021-11-29 23:52:57'),
+(8511, 3, 'http://127.0.0.1:8000/kartunama/bayu', 'http://127.0.0.1:8000/bayu', '127.0.0.1', '2021-11-29 23:53:08'),
+(8512, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-11-29 23:53:20'),
+(8513, 3, 'http://127.0.0.1:8000/kartunama/bayu', 'http://127.0.0.1:8000/bayu', '127.0.0.1', '2021-11-29 23:53:21'),
+(8514, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-11-29 23:54:00'),
+(8515, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-11-29 23:54:27'),
+(8516, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:28:15'),
+(8517, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:31:22'),
+(8518, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:32:29'),
+(8519, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:32:47'),
+(8520, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:33:21'),
+(8521, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:33:58'),
+(8522, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:35:03'),
+(8523, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:35:39'),
+(8524, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:36:07'),
+(8525, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:36:17'),
+(8526, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:36:40'),
+(8527, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:39:11'),
+(8528, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:50:32'),
+(8529, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:50:46'),
+(8530, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:52:04'),
+(8531, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:52:30'),
+(8532, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:52:49'),
+(8533, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:52:56'),
+(8534, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:53:47'),
+(8535, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:54:03'),
+(8536, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:54:10'),
+(8537, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:54:23'),
+(8538, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:54:47'),
+(8539, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:54:56'),
+(8540, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:55:10'),
+(8541, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:55:35'),
+(8542, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:56:12'),
+(8543, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:56:28'),
+(8544, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:56:41'),
+(8545, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:56:52'),
+(8546, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:57:07'),
+(8547, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:57:32'),
+(8548, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 09:58:16'),
+(8549, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:00:10'),
+(8550, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:00:42'),
+(8551, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:01:23'),
+(8552, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:01:34'),
+(8553, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:04:08'),
+(8554, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:05:23'),
+(8555, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:06:20'),
+(8556, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:06:52'),
+(8557, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:08:10'),
+(8558, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:09:06'),
+(8559, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:09:56'),
+(8560, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:10:12'),
+(8561, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:12:17'),
+(8562, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:12:44'),
+(8563, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:13:04'),
+(8564, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:14:03'),
+(8565, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:19:01'),
+(8566, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:20:27'),
+(8567, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:20:47'),
+(8568, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:21:27'),
+(8569, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:25:00'),
+(8570, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:29:00'),
+(8571, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:29:10'),
+(8572, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:30:24'),
+(8573, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:31:47'),
+(8574, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:32:21'),
+(8575, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:33:00'),
+(8576, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:38:08'),
+(8577, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:38:24'),
+(8578, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:39:08'),
+(8579, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:40:38'),
+(8580, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:42:48'),
+(8581, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:44:03'),
+(8582, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:44:26'),
+(8583, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:44:46'),
+(8584, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:46:00'),
+(8585, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:46:14'),
+(8586, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:46:25'),
+(8587, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:47:04'),
+(8588, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:51:18'),
+(8589, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:51:42'),
+(8590, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:54:33'),
+(8591, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:56:05'),
+(8592, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:58:22'),
+(8593, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:58:39'),
+(8594, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:58:49'),
+(8595, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:58:58'),
+(8596, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 10:59:23'),
+(8597, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 11:00:54'),
+(8598, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:11:14'),
+(8599, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:12:12'),
+(8600, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:12:35'),
+(8601, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:13:30'),
+(8602, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:14:55'),
+(8603, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:16:21'),
+(8604, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:16:29'),
+(8605, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:17:39'),
+(8606, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:18:00'),
+(8607, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:21:57'),
+(8608, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:22:14'),
+(8609, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:22:48'),
+(8610, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:23:38'),
+(8611, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:23:50'),
+(8612, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:24:50'),
+(8613, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:25:35'),
+(8614, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:26:51'),
+(8615, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:28:01'),
+(8616, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:28:44'),
+(8617, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:30:11'),
+(8618, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:32:13'),
+(8619, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:32:34'),
+(8620, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-21 17:33:01'),
+(8621, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-22 07:53:39'),
+(8622, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-22 07:54:50'),
+(8623, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-22 07:55:11'),
+(8624, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-22 07:59:04'),
+(8625, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-22 07:59:56'),
+(8626, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-22 08:00:57'),
+(8627, 3, 'http://127.0.0.1:8000/bayu', NULL, '127.0.0.1', '2021-12-22 08:01:16'),
+(8628, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:15:02'),
+(8629, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:15:15'),
+(8630, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:15:22'),
+(8631, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:15:38'),
+(8632, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:17:20'),
+(8633, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:21:50'),
+(8634, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:22:27'),
+(8635, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:24:04'),
+(8636, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:25:42'),
+(8637, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:26:06'),
+(8638, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:26:16'),
+(8639, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:26:28'),
+(8640, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:27:15'),
+(8641, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:27:26'),
+(8642, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:28:46'),
+(8643, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:32:41'),
+(8644, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:32:57'),
+(8645, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:33:18'),
+(8646, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:34:38'),
+(8647, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:38:43'),
+(8648, 3, 'http://127.0.0.1:8000/bayu', 'http://127.0.0.1:8000/produk/bayu/domba-tanduk', '127.0.0.1', '2021-12-22 08:39:28'),
+(8649, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 08:53:23'),
+(8650, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/admin/banner', '127.0.0.1', '2021-12-22 19:01:32'),
+(8651, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 19:02:41'),
+(8652, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:04:10'),
+(8653, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:08:12'),
+(8654, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:09:00'),
+(8655, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:09:31'),
+(8656, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:09:53'),
+(8657, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:10:07'),
+(8658, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:10:34'),
+(8659, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:10:45'),
+(8660, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:12:03');
+INSERT INTO `page_traffic_member` (`id`, `member_id`, `path`, `refferal`, `ip`, `time`) VALUES
+(8661, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:13:19'),
+(8662, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/produk/pdp/domba-sumarecon', '127.0.0.1', '2021-12-22 19:13:52'),
+(8663, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-12-22 21:38:36'),
+(8664, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-12-22 21:39:48'),
+(8665, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/', '127.0.0.1', '2021-12-22 21:57:41'),
+(8666, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:01:14'),
+(8667, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:01:24'),
+(8668, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:02:18'),
+(8669, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:03:54'),
+(8670, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:04:30'),
+(8671, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:04:34'),
+(8672, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:04:46'),
+(8673, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:04:55'),
+(8674, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:05:03'),
+(8675, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:05:14'),
+(8676, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:06:07'),
+(8677, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-22 22:10:00');
 
 -- --------------------------------------------------------
 
@@ -12427,7 +12659,6 @@ CREATE TABLE `penarikan_wallet` (
 CREATE TABLE `produk` (
   `id` int(11) NOT NULL,
   `member_id` int(30) NOT NULL,
-  `bisnis_id` int(11) NOT NULL,
   `nama_brg` varchar(50) NOT NULL,
   `slug` varchar(500) NOT NULL,
   `keterangan_singkat` varchar(500) DEFAULT NULL,
@@ -12439,6 +12670,14 @@ CREATE TABLE `produk` (
   `tgl_update` datetime DEFAULT NULL,
   `petugas_update` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `produk`
+--
+
+INSERT INTO `produk` (`id`, `member_id`, `nama_brg`, `slug`, `keterangan_singkat`, `keterangan`, `harga`, `foto`, `tgl_input`, `petugas_input`, `tgl_update`, `petugas_update`) VALUES
+(13, 3, 'Domba Tanduk', 'domba-tanduk', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', 100000, '3/photos/domba.png', NULL, 'bayu', NULL, 'bayu'),
+(14, 3, 'Domba Sumarecon', 'domba-sumarecon', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', 5000000, '3/photos/domba2.png', NULL, 'pdp', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -19838,16 +20077,7 @@ CREATE TABLE `testimoni` (
 --
 
 INSERT INTO `testimoni` (`id`, `member_id`, `produk_id`, `judul`, `nama`, `alamat`, `foto`, `keterangan`, `created_at`, `updated_at`) VALUES
-(5, 1, 2, NULL, NULL, NULL, '1/photos/WhatsApp Image 2020-10-16 at 15.10.50.jpeg', NULL, '2020-11-20 14:14:33', '2020-11-20 07:14:33'),
-(7, 1, 5, NULL, NULL, NULL, '1/photos/WhatsApp Image 2020-10-16 at 15.09.44.jpeg', NULL, '2020-11-20 10:03:19', '2020-10-27 02:03:27'),
-(8, 1, 2, NULL, NULL, NULL, '1/photos/WhatsApp Image 2020-10-16 at 15.09.08.jpeg', NULL, '2020-11-20 10:03:29', '2020-10-27 02:03:08'),
-(9, 1, 2, NULL, NULL, NULL, '1/photos/WhatsApp Image 2020-10-16 at 15.07.56.jpeg', NULL, '2020-11-20 10:03:36', '2020-10-27 02:03:39'),
-(10, 1, 2, NULL, NULL, NULL, '1/photos/WhatsApp Image 2020-10-16 at 15.07.56.jpeg', NULL, '2020-11-20 10:03:43', '2020-10-27 02:04:22'),
-(11, 1, 2, NULL, NULL, NULL, '1/photos/WhatsApp Image 2020-10-16 at 15.06.02.jpeg', NULL, '2020-11-20 10:03:48', '2020-10-27 02:04:54'),
-(12, 1, 2, NULL, NULL, NULL, '1/photos/WhatsApp Image 2020-10-16 at 15.05.00.jpeg', NULL, '2020-11-20 10:04:00', '2020-10-27 02:05:33'),
-(13, 2, 9, 'judul Testi', 'Ibu Tati', 'Gsrut-Jawa Barat', '2/photos/WhatsApp Image 2020-10-16 at 15.09.44.jpeg', '<p><br />\r\nisi testi moni</p>', '2021-04-05 18:28:13', '2020-10-25 16:23:26'),
-(14, 2, 9, 'judul Testi 2', 'Pak Oding', 'Bandung-Jawa Barat', '2/photos/WhatsApp Image 2020-10-16 at 15.10.37.jpeg', '<p>initestimonii isi</p>', '2021-04-05 18:28:21', '2020-10-25 16:08:22'),
-(15, 2, 9, NULL, NULL, NULL, '2/photos/WhatsApp Image 2020-10-16 at 15.05.00.jpeg', NULL, '2021-04-05 18:28:28', '2020-10-25 18:26:06');
+(16, 3, 13, 'Domba Presiden', 'Bayu Nugraha', 'Cikarang KSB', '3/photos/58.jpg', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', '2021-12-20 20:34:25', '2021-12-20 20:34:25');
 
 -- --------------------------------------------------------
 
@@ -19869,7 +20099,7 @@ CREATE TABLE `themes` (
 --
 
 INSERT INTO `themes` (`id`, `name`, `picture`, `template`, `updated`, `user_id`) VALUES
-(12, 'Template 1', NULL, '1_templates', '2021-09-22 10:15:31', 70),
+(12, 'Singlepage', NULL, 'singlepage', '2021-09-22 10:15:31', 70),
 (13, 'Template 2', NULL, '2_templates', '2021-09-22 10:15:45', 70),
 (14, 'Template 3', NULL, '3_templates', '2021-09-22 10:15:57', 70),
 (15, 'Template 4', NULL, '4_templates', '2021-09-22 10:16:13', 70),
@@ -19973,6 +20203,13 @@ CREATE TABLE `welcome_note` (
   `update_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Dumping data for table `welcome_note`
+--
+
+INSERT INTO `welcome_note` (`id`, `member_id`, `sub_judul`, `judul`, `welcome_note`, `created_at`, `update_at`) VALUES
+(2, 3, 'Domba Presiden', 'About', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>', '2021-12-21 03:13:01', '2021-12-21 03:13:01');
+
 -- --------------------------------------------------------
 
 --
@@ -19996,15 +20233,10 @@ CREATE TABLE `youtube` (
 --
 
 INSERT INTO `youtube` (`id`, `member_id`, `kategori`, `judul`, `id_youtube`, `dilihat`, `created_at`, `updated_at`, `petugas`) VALUES
-(3, 1, 'ASANTE', 'Lagi Tranding!!! Obatnya SULTAN senilai 125 Juta', 'jMj585lA7LM', 0, '2020-09-18 23:54:16', '2020-09-12 14:21:26', ''),
-(4, 1, 'ASANTE', 'Wawancara Artis Nova Soraya bersama Pakar Herbal', '9eK4lTUavI4', 0, '2020-09-18 23:54:13', '2020-09-12 14:21:26', ''),
-(5, 1, 'ASANTE', 'Viral!! Suplemen yang di pakai Artis Syntia Marisca Suplemennya Sultan!!', 'D-uzGZggDxQ', 0, '2020-09-18 23:54:08', '2020-09-13 18:03:33', ''),
-(6, 1, 'ASANTE', 'Propolisnya Sultan - Doni Damara', 'paEVkYixKCk', 0, '2020-09-18 23:54:02', '2020-09-13 18:04:17', ''),
-(7, 1, 'ASANTE', 'Fitri Carlina Mengkonsumis RB Propolis', '6TgtBZ8FLWU', 0, '2020-09-18 23:53:31', '2020-09-18 23:53:31', ''),
-(8, 1, 'ASANTE', 'RBP Propolis menurut Bang Apoy Band Wali', 'O403GWY1KBo', 0, '2020-09-18 23:53:31', '2020-09-18 23:53:31', ''),
-(9, 2, 'Eco Racing', 'Company Profile PT. BEST', 'xeVrgmNdQqI', 0, '2020-09-12 07:21:26', '2020-09-12 07:21:26', ''),
-(10, 2, 'Eco Racing', 'Legalitas Bisnis Eco Racing', 'IGq-h6A9iW4', 0, '2020-09-12 07:21:26', '2020-09-12 07:21:26', ''),
-(11, 2, 'Shadnetwork', 'VIDEO PRODUK HILBA PLUS', 'UFTE0nFBYVA', 0, '2021-04-05 23:33:20', '2021-04-05 23:33:20', 'tiar');
+(12, 3, 'Domba', 'Memandikan Summarecon, Domba Adu Jawara Cisewu', 'tFFRrAIYcqE', 0, '2021-12-21 10:28:41', '2021-12-21 03:28:41', 'bayu'),
+(13, 3, 'Domba', 'Adhin Abdul Hakim Ngetest Ketangkasan Domba Juara PDP Presiden', '0UMqvAW0MAA', 0, '2021-12-21 03:29:23', '2021-12-21 03:29:23', 'bayu'),
+(14, 3, 'Domba', 'Membeli Bibit Domba Unggul, Salah Pilih Bisa Ambyar ..!', '_JAd-AkpCKQ', 0, '2021-12-21 03:29:49', '2021-12-21 03:29:49', 'bayu'),
+(15, 3, 'Domba', 'Seni dalam Merawat Domba Tangkas, Bikin Domba Senang dan Cepat Gemuk', 'lE2jUvlwrc4', 0, '2021-12-21 03:30:08', '2021-12-21 03:30:08', 'bayu');
 
 --
 -- Indexes for dumped tables
@@ -20300,7 +20532,6 @@ ALTER TABLE `penarikan_wallet`
 ALTER TABLE `produk`
   ADD UNIQUE KEY `id` (`id`),
   ADD KEY `member_id` (`member_id`),
-  ADD KEY `bisnis_id` (`bisnis_id`),
   ADD KEY `slug` (`slug`);
 
 --
@@ -20545,13 +20776,13 @@ ALTER TABLE `event_log`
 -- AUTO_INCREMENT for table `event_log_member`
 --
 ALTER TABLE `event_log_member`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1590;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1671;
 
 --
 -- AUTO_INCREMENT for table `gallery_photo`
 --
 ALTER TABLE `gallery_photo`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `kartu_nama`
@@ -20605,7 +20836,7 @@ ALTER TABLE `member`
 -- AUTO_INCREMENT for table `page_traffic_member`
 --
 ALTER TABLE `page_traffic_member`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8508;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8678;
 
 --
 -- AUTO_INCREMENT for table `penarikan_wallet`
@@ -20617,7 +20848,7 @@ ALTER TABLE `penarikan_wallet`
 -- AUTO_INCREMENT for table `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `province`
@@ -20647,7 +20878,7 @@ ALTER TABLE `sub_kategori_pekerjaan`
 -- AUTO_INCREMENT for table `testimoni`
 --
 ALTER TABLE `testimoni`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `themes`
@@ -20677,13 +20908,13 @@ ALTER TABLE `web_templates`
 -- AUTO_INCREMENT for table `welcome_note`
 --
 ALTER TABLE `welcome_note`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `youtube`
 --
 ALTER TABLE `youtube`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- Constraints for dumped tables
