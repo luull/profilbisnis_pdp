@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 23, 2021 at 06:34 PM
+-- Generation Time: Dec 27, 2021 at 03:50 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -188,24 +188,7 @@ CREATE TABLE `banner` (
 --
 
 INSERT INTO `banner` (`id`, `member_id`, `judul`, `sub_judul1`, `sub_judul2`, `tombol`, `link`, `gambar`, `background`, `created_at`, `updated_at`) VALUES
-(2, 10, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah?', 'Ya Insya Allah BISA, sukses hanya dari rumah dengan biaya relatif kecil', 'Mulai', '#bisnis', '10/images/banner_1_SP.jpeg', 'templates/agico/images/background/banner.png', '2021-11-16 04:18:27', '2021-11-15 21:18:27'),
-(3, 1, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#about', '8/images/plan.svg', '', '2021-07-27 02:26:17', '2021-07-26 19:26:17'),
-(4, 3, 'Domba Presiden', 'Peternakan Domba Terbaik', 'Peternakan Domba yang dirawat dengan baik dan berkualitas', 'Let Start', '#about', '3/images/home-office-336378_1280-e1585765560982.jpg', NULL, '2021-12-21 03:05:20', '2021-12-20 20:05:20'),
-(6, 8, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah?', 'Ya Insya Allah BISA, sukses hanya dari rumah dengan biaya relatif kecil', 'Mulai', '#about', '8/images/men-success-laptop-relieve-work-from-home-computer-great_10045-646-removebg-preview.png', NULL, '2021-11-16 04:12:21', '2021-11-15 21:12:21'),
-(7, 11, 'Sukses Anda, Kebahagiaan Saya', 'Apa Bisa Sukses Hanya Dari Rumah?', 'Ya Insya Allah BISA, sukses hanya dari rumah dengan biaya relatif kecil', 'Mulai', '#about', '11/images/home-office-336378_1280-e1585765560982.jpg', '', '2021-11-16 04:14:08', '2021-11-15 21:14:08'),
-(8, 12, 'SUKSES ANDA, KEBAHAGIAN SAYA', 'Berkarya bersama untuk meraih sukses yang sempurna', 'bisa dilakukan dimana saja, kapan saja', 'Mulai', '#bisnis', '12/images/266-2662905_the-keys-to-our-success-success-clipart.png', '', '2021-08-28 09:29:51', '2021-08-28 02:29:51'),
-(9, 14, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', '', '', '2021-10-28 19:49:00', '2021-10-28 19:49:00'),
-(10, 15, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-10-30 20:42:23', '2021-10-30 20:42:23'),
-(11, 16, 'SUKSES BERSAMA SNW', 'Apa Bisa Sukses Hanya Dari Rumah?', 'Ya, Insya Allah Bisa. Sukses hanya dari rumah dengan biaya relatif kecil', 'Mulai', '#about', '16/images/PP-10.jpeg', '', '2021-11-17 13:23:14', '2021-11-17 06:23:14'),
-(12, 17, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-11-12 00:13:14', '2021-11-12 00:13:14'),
-(13, 18, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-11-12 00:30:21', '2021-11-12 00:30:21'),
-(14, 19, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-11-12 00:36:16', '2021-11-12 00:36:16'),
-(15, 20, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-11-12 00:37:12', '2021-11-12 00:37:12'),
-(16, 21, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-11-12 00:41:18', '2021-11-12 00:41:18'),
-(17, 22, 'Judul Banner', 'Sub Judul Banner1', 'Sub Judul Banner2', 'Mulai', '#bisnis', '', '', '2021-11-17 00:49:51', '2021-11-17 00:49:51'),
-(18, 23, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-11-18 01:43:25', '2021-11-18 01:43:25'),
-(19, 24, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-11-18 02:44:09', '2021-11-18 02:44:09'),
-(20, 25, 'Sukses Hanya Dari Rumah', 'Apa Bisa Sukses Hanya Dari Rumah saja?', 'Ya kita bisa sukses hanya dari rumah saja tampa mengeluarkan biaya besar', 'Mulai', '#bisnis', 'templates/agico/images/banner/banner-1.png', 'templates/agico/images/background/banner.png', '2021-11-18 23:33:19', '2021-11-18 23:33:19');
+(4, 3, 'GROWING\nTOGETHER', 'Domba Presiden', 'Peternakan Domba yang dirawat dengan baik dan berkualitas', 'Let Start', '#about', '3/images/home-office-336378_1280-e1585765560982.jpg', NULL, '2021-12-23 17:46:01', '2021-12-20 20:05:20');
 
 -- --------------------------------------------------------
 
@@ -3876,7 +3859,7 @@ CREATE TABLE `member` (
 --
 
 INSERT INTO `member` (`id`, `username`, `password`, `level`, `member_id`, `sponsor`, `nama`, `ktp`, `alamat`, `kelurahan`, `kecamatan`, `kota`, `propinsi`, `negara`, `kd_pos`, `email`, `telp`, `hp`, `wa`, `ig`, `fb`, `twitter`, `tube`, `website`, `map`, `latitude`, `longitude`, `tentang_web`, `moto`, `themes_id`, `kartu_nama_id`, `foto`, `perusahaan`, `kategori_pekerjaan`, `sub_kategori_pekerjaan`, `pekerjaan`, `jabatan`, `logo`, `logo_kecil`, `tgl_expired`, `last_login`, `ip_login`, `tgl_daftar`, `tgl_input`, `petugas_input`, `tgl_update`, `petugas_update`, `hits`) VALUES
-(3, 'pdp', '$2y$10$O6skXSE.zEZr8S9AUMqSVeseryQdRNgeF4OAn896UuRBHPJtQCh/u', 1, '10101010', NULL, 'PDP', '1212121212121', 'Perum Kota Serang Baru Blok E-22 No 5', 'Sukaragam', 1725, 126, 9, 'Indonesia', '17330', 'pdp@gmail.com', NULL, '087882339006', '+6287882339006', NULL, 'pdp', NULL, 'pdp', NULL, NULL, NULL, NULL, 'Web ini merupakan wadah  untuk memperkenalkan diri saya dan bisnis yang  saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.', NULL, 12, 25, 'images/no-pic.jpg', 'Solusi-IT', 9, 21, 'Praktisi IT', 'Direktur', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-12-21 20:09:56', 3, 933);
+(3, 'pdp', '$2y$10$O6skXSE.zEZr8S9AUMqSVeseryQdRNgeF4OAn896UuRBHPJtQCh/u', 1, '10101010', NULL, 'PDP', '1212121212121', 'Perum Kota Serang Baru Blok E-22 No 5', 'Sukaragam', 1725, 126, 9, 'Indonesia', '17330', 'pdp@gmail.com', NULL, '087882339006', '+6287882339006', NULL, 'pdp', NULL, 'pdp', NULL, NULL, NULL, NULL, 'Web ini merupakan wadah  untuk memperkenalkan diri saya dan bisnis yang  saya tekuni, semoga dengan adanya website ini bisa menjadi sarana saya untuk menjelaskan tentang semua bisnis saya kepada Anda.', NULL, 12, 25, 'images/no-pic.jpg', 'Solusi-IT', 9, 21, 'Praktisi IT', 'Direktur', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-12-21 20:09:56', 3, 941);
 
 -- --------------------------------------------------------
 
@@ -12702,7 +12685,15 @@ INSERT INTO `page_traffic_member` (`id`, `member_id`, `path`, `refferal`, `ip`, 
 (8731, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:31:26'),
 (8732, 3, 'http://127.0.0.1:8000/about', 'http://127.0.0.1:8000/pdp', '127.0.0.1', '2021-12-24 00:31:50'),
 (8733, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:31:58'),
-(8734, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:33:27');
+(8734, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:33:27'),
+(8735, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:46:08'),
+(8736, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:47:05'),
+(8737, 3, 'http://127.0.0.1:8000/pdp', 'http://127.0.0.1:8000/about', '127.0.0.1', '2021-12-24 00:47:24'),
+(8738, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-24 00:47:31'),
+(8739, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-24 00:48:06'),
+(8740, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-24 00:48:15'),
+(8741, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-24 00:48:34'),
+(8742, 3, 'http://127.0.0.1:8000/pdp', NULL, '127.0.0.1', '2021-12-24 00:48:51');
 
 -- --------------------------------------------------------
 
@@ -20902,7 +20893,7 @@ ALTER TABLE `member`
 -- AUTO_INCREMENT for table `page_traffic_member`
 --
 ALTER TABLE `page_traffic_member`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8735;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8743;
 
 --
 -- AUTO_INCREMENT for table `penarikan_wallet`
